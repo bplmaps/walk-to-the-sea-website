@@ -4,18 +4,19 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'walk-to-the-sea-nuxt',
+    title: 'Walk to the Sea',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'The Walk to the Sea covers four centuries of Boston history. Beginning at the State House on Beacon Hill, overlooking the old Boston Common, the Walk passes historic monuments and skyscrapers.'
+      }
     ]
   },
 
