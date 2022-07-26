@@ -30,10 +30,17 @@
       </p>
     </div>
 
-    <div>
+    <div v-if="allLocations.length">
       <h2>
         Start your journey by selecting one of the locations:
       </h2>
+      <ul>
+        <li v-for="(location, index) in allLocations" :key="index">
+          <nuxt-link :to="location.slug">
+            {{ location.title }}
+          </nuxt-link>
+        </li>
+      </ul>
     </div>
 
     <div>
@@ -48,12 +55,14 @@
         The complete Walk to the Sea route is <strong>1.4 mi (2.25km)</strong>
         in length.  From its highest point at the origin in Beacon Hill to the
         lowest point at Long Wharf, the <strong>elevation loss is 220ft (67 m)</strong>.
-        The route is ADA accessible at the following locations:
+        <template v-if="allLocations.length">
+          The route is ADA accessible at the following locations:
+        </template>
       </p>
-      <ul>
-        <li>Lorem ipsum dolor</li>
-        <li>Sit amet</li>
-        <li>Consectetur adipiscing elit</li>
+      <ul v-if="accessibleLocations.length">
+        <li v-for="(location, index) in accessibleLocations" :key="index">
+          {{ location.title }}
+        </li>
       </ul>
     </div>
 
@@ -69,6 +78,12 @@
 <script>
 export default {
   name: 'IndexPage',
+  async asyncData ({ $content, params }) {
+    const allLocations = await $content().sortBy('order').fetch()
+    const accessibleLocations = await $content().sortBy('order').where({ accessible: true }).fetch()
+
+    return { allLocations, accessibleLocations }
+  },
   head: {
     title: 'Walk to the Sea',
     meta: [
