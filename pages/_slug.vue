@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-content :document="page" />
+    <nuxt-content class="prose" :document="page" />
   </div>
 </template>
 

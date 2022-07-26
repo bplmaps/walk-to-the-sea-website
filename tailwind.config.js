@@ -1,5 +1,13 @@
 module.exports = {
-  purge: [],
+  content: [
+    'components/**/*.{vue,js}',
+    'layouts/**/*.vue',
+    'pages/**/*.vue',
+    'composables/**/*.{js,ts}',
+    'plugins/**/*.{js,ts}',
+    'App.{js,ts,vue}',
+    'app.{js,ts,vue}'
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
@@ -43,11 +51,20 @@ module.exports = {
         midnight: '#1d1e2c',
         pewter: '#ccd0d9',
         periwinkle: '#ccd0d9'
+      }),
+      typography: theme => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.midnight')
+          }
+        }
       })
     }
   },
   variants: {
     extend: {}
   },
-  plugins: []
+  plugins: [
+    require('@tailwindcss/typography')
+  ]
 }
