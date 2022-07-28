@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <TheHeader />
-    <Nuxt />
-    <TheFooter />
+  <div class="text-midnight">
+    <the-header />
+    <nuxt />
+    <the-footer />
   </div>
 </template>

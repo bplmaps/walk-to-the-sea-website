@@ -7,7 +7,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const slug = params.slug || 'index'
+    const slug = params.slug
     const page = await $content(slug)
       .fetch()
 

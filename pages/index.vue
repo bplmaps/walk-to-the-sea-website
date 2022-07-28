@@ -1,27 +1,29 @@
 <template>
-  <div>
-    <div>
-      <h1>
-        The Walk to the Sea covers four centuries of Boston history.
-        Beginning at the State House on Beacon Hill, overlooking the
-        old Boston Common, the Walk passes historic monuments and
-        skyscrapers.
-      </h1>
-      <p>
-        Start your journey by selecting a location below or using the map button:
-      </p>
-      <nav>
-        <button>
-          Explore Map
-        </button>
-        <button>
-          Head to the Water
-        </button>
-      </nav>
+  <div class="font-serif">
+    <div class="bg-cover bg-center">
+      <div class="bg-midnight bg-opacity-40 text-white">
+        <div class="container mx-auto px-5 py-28 min-h-screen flex flex-col items-stretch lg:flex-row lg:items-center">
+          <h1 class="text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
+            The Walk to the Sea covers four centuries of Boston history.
+            Beginning at the State House on Beacon Hill, overlooking the
+            old Boston Common, the Walk passes historic monuments and
+            skyscrapers.
+          </h1>
+          <div class="lg:w-1/3">
+            <p class="text-lg text-center leading-none mb-14 max-w-sm mx-auto lg:max-w-lg xl:text-3xl 2xl:text-4xl">
+              Start your journey by selecting a location below or using the map button:
+            </p>
+            <nav class="flex justify-center items-start 2xl:space-x-20">
+              <icon-button text="Explore Map" />
+              <icon-button text="Head to the Water" />
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <p>
+    <div class="container mx-auto px-5 py-28 xl:max-w-[68rem]">
+      <p class="text-3xl xl:text-4xl">
         The Walk crosses a terain that, centuries before, was not land at
         all, but an active port.  The history of Boston is linked to the Sea,
         whose smells and sounds once invaded the city.  The walk from the
@@ -30,47 +32,82 @@
       </p>
     </div>
 
-    <div v-if="allLocations.length">
-      <h2>
-        Start your journey by selecting one of the locations:
-      </h2>
-      <ul>
-        <li v-for="(location, index) in allLocations" :key="index">
-          <nuxt-link :to="location.slug">
-            {{ location.title }}
-          </nuxt-link>
-        </li>
-      </ul>
+    <div
+      v-if="allLocations.length"
+      class="relative bg-midnight text-pewter"
+    >
+      <img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full">
+      <div class="container mx-auto px-5 py-28">
+        <div class="md:w-1/2 md:pr-8 lg:pr-14">
+          <h2 class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
+            Start your journey by selecting one of the locations:
+          </h2>
+          <ul class="text-2xl tracking-tight xl:text-5xl 2xl:text-6xl">
+            <li
+              v-for="(location, index) in allLocations"
+              :key="index"
+            >
+              <nuxt-link
+                :to="location.slug"
+                class="hover:underline"
+              >
+                {{ location.title }}
+              </nuxt-link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <!-- Video -->
+    <figure class="sm:container sm:mx-auto sm:px-5 sm:py-28 xl:max-w-[68rem]">
+      <video class="w-full aspect-video bg-black cursor-pointer" />
+      <figcaption class="font-sans mt-1 font-medium text-sm px-5 sm:px-0 lg:text-base">
+        Watch Boston's Transformation
+      </figcaption>
+    </figure>
+
+    <div class="relative sm:bg-midnight sm:text-white">
+      <div class="container mx-auto px-5 py-28">
+        <div class="md:w-1/2 md:ml-auto md:pl-8 lg:pl-14">
+          <h2 class="text-base leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
+            Accessibility and Route Planning
+          </h2>
+          <p class="font-sans text-base leading-tight mb-4 max-w-xs md:max-w-sm">
+            The complete Walk to the Sea route is <strong>1.4 mi (2.25km)</strong>
+            in length.  From its highest point at the origin in Beacon Hill to the
+            lowest point at Long Wharf, the <strong>elevation loss is 220ft (67 m)</strong>.
+            <template v-if="allLocations.length">
+              The route is ADA accessible at the following locations:
+            </template>
+          </p>
+          <ul
+            v-if="accessibleLocations.length"
+            class="text-lg tracking-tight xl:text-3xl 2xl:text-4xl"
+          >
+            <li
+              v-for="(location, index) in accessibleLocations"
+              :key="index"
+            >
+              <nuxt-link
+                :to="location.slug"
+                class="hover:underline"
+              >
+                {{ location.title }}
+              </nuxt-link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full">
     </div>
 
-    <div>
-      <h2>
-        Accessibility and Route Planning
-      </h2>
-      <p>
-        The complete Walk to the Sea route is <strong>1.4 mi (2.25km)</strong>
-        in length.  From its highest point at the origin in Beacon Hill to the
-        lowest point at Long Wharf, the <strong>elevation loss is 220ft (67 m)</strong>.
-        <template v-if="allLocations.length">
-          The route is ADA accessible at the following locations:
-        </template>
-      </p>
-      <ul v-if="accessibleLocations.length">
-        <li v-for="(location, index) in accessibleLocations" :key="index">
-          {{ location.title }}
-        </li>
-      </ul>
-    </div>
-
-    <div>
-      <p>
-        Walk to the Sea is a project of the Norman B. Leventhal Map and Education
-        Center, with generous support from the Mapping Boston Foundation.
-      </p>
+    <div class="bg-periwinkle">
+      <div class="container mx-auto px-5 py-28 xl:max-w-[68rem]">
+        <p class="text-base leading-none max-w-[18rem] sm:text-3xl sm:max-w-[34rem] xl:max-w-[52rem] 2xl:text-4xl 2xl:max-w-[60rem]">
+          Walk to the Sea is a project of the Norman B. Leventhal Map and Education
+          Center, with generous support from the Mapping Boston Foundation.
+        </p>
+      </div>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 ---
 title: Long Wharf
-accessible: false
+accessible: true
 order: 7
 ---
