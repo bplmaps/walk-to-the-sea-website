@@ -3,7 +3,7 @@
     <div class="relative">
       <nuxt-img class="absolute object-cover object-center w-full h-full" src="/hero-index.jpg" sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw" />
       <div class="relative bg-midnight bg-opacity-40 text-white">
-        <div class="relative container mx-auto px-5 py-28 min-h-screen flex flex-col items-stretch lg:flex-row lg:items-center xl:py-40">
+        <div class="relative container mx-auto px-5 pt-20 pb-14 min-h-screen flex flex-col items-stretch sm:pb-28 lg:flex-row lg:items-center xl:py-40">
           <nuxt-link
             to="/"
             class="absolute top-0"
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-5 py-28 xl:max-w-[68rem]">
+    <div class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
       <p class="text-3xl xl:text-4xl">
         The Walk crosses a terain that, centuries before, was not land at
         all, but an active port.  The history of Boston is linked to the Sea,
@@ -44,7 +44,7 @@
       class="relative bg-midnight text-pewter"
     >
       <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full" src="/feature-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
-      <div class="container mx-auto px-5 py-28">
+      <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:pr-8 lg:pr-14">
           <h2 class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
             Start your journey by selecting one of the locations:
@@ -74,7 +74,7 @@
     </figure>
 
     <div class="relative sm:bg-midnight sm:text-white">
-      <div class="container mx-auto px-5 py-28">
+      <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:ml-auto md:pl-8 lg:pl-14">
           <h2 class="text-base leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
             Accessibility and Route Planning
@@ -109,7 +109,7 @@
     </div>
 
     <div class="bg-periwinkle">
-      <div class="container mx-auto px-5 py-28 xl:max-w-[68rem]">
+      <div class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
         <p class="text-base leading-none max-w-[18rem] sm:text-3xl sm:max-w-[34rem] xl:max-w-[52rem] 2xl:text-4xl 2xl:max-w-[60rem]">
           Walk to the Sea is a project of the Norman B. Leventhal Map and Education
           Center, with generous support from the Mapping Boston Foundation.
@@ -122,6 +122,7 @@
 <script>
 export default {
   name: 'IndexPage',
+  layout: 'index',
   async asyncData ({ $content, params }) {
     const allLocations = await $content().sortBy('order').fetch()
     const accessibleLocations = await $content().sortBy('order').where({ accessible: true }).fetch()
