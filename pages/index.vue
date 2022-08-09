@@ -21,8 +21,23 @@
               Start your journey by selecting a location below or using the map button:
             </p>
             <nav class="flex justify-center items-start 2xl:space-x-20">
-              <icon-button icon="/icon-map.svg" icon-alt="Map icon" text="Explore Map" />
-              <icon-button icon="/icon-pin.svg" icon-alt="Map pin icon" text="Head to the Water" />
+              <a href="#">
+                <icon-button
+                  icon="/icon-map.svg"
+                  icon-alt="Map icon"
+                  text="Explore Map"
+                />
+              </a>
+              <nuxt-link
+                v-if="allLocations.length"
+                :to="allLocations[0].slug"
+              >
+                <icon-button
+                  icon="/icon-pin.svg"
+                  icon-alt="Map pin icon"
+                  text="Head to the Water"
+                />
+              </nuxt-link>
             </nav>
           </div>
         </div>
