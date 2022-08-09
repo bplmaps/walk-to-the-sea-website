@@ -25,6 +25,19 @@ export default {
     ]
   },
 
+  image: {
+    quality: 80,
+    // Define screen sizes used by `@nuxt/image`:
+    // These are sync'd with breakpoints specified for tailwind
+    screens: {
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      '2xl': 1680
+    }
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
