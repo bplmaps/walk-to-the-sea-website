@@ -1,8 +1,15 @@
 <template>
   <div class="font-serif">
-    <div class="bg-cover bg-center">
-      <div class="bg-midnight bg-opacity-40 text-white">
-        <div class="container mx-auto px-5 py-28 min-h-screen flex flex-col items-stretch lg:flex-row lg:items-center">
+    <div class="relative">
+      <nuxt-img class="absolute object-cover object-center w-full h-full" src="/hero-index.jpg" sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw" />
+      <div class="relative bg-midnight bg-opacity-40 text-white">
+        <div class="relative container mx-auto px-5 py-28 min-h-screen flex flex-col items-stretch lg:flex-row lg:items-center xl:py-40">
+          <nuxt-link
+            to="/"
+            class="absolute top-0"
+          >
+            <nuxt-img class="h-10 my-5 w-auto xl:h-18 xl:my-12" src="/brand-wordmark.svg" alt="Walk to the Sea" />
+          </nuxt-link>
           <h1 class="text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
             The Walk to the Sea covers four centuries of Boston history.
             Beginning at the State House on Beacon Hill, overlooking the
@@ -14,8 +21,8 @@
               Start your journey by selecting a location below or using the map button:
             </p>
             <nav class="flex justify-center items-start 2xl:space-x-20">
-              <icon-button text="Explore Map" />
-              <icon-button text="Head to the Water" />
+              <icon-button icon="/icon-map.svg" icon-alt="Map icon" text="Explore Map" />
+              <icon-button icon="/icon-pin.svg" icon-alt="Map pin icon" text="Head to the Water" />
             </nav>
           </div>
         </div>
@@ -36,7 +43,7 @@
       v-if="allLocations.length"
       class="relative bg-midnight text-pewter"
     >
-      <img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full">
+      <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full" src="/feature-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
       <div class="container mx-auto px-5 py-28">
         <div class="md:w-1/2 md:pr-8 lg:pr-14">
           <h2 class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
@@ -98,7 +105,7 @@
           </ul>
         </div>
       </div>
-      <img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full">
+      <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full" src="/feature-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
     </div>
 
     <div class="bg-periwinkle">

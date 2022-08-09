@@ -73,7 +73,10 @@ module.exports = {
             color: theme('colors.midnight')
           }
         }
-      })
+      }),
+      spacing: {
+        18: '4.5rem'
+      }
     }
   },
   variants: {
