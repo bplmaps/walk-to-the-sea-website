@@ -45,7 +45,7 @@
     </div>
 
     <div class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
-      <p class="text-3xl xl:text-4xl">
+      <p class="text-3xl leading-none xl:text-4xl">
         The Walk crosses a terain that, centuries before, was not land at
         all, but an active port.  The history of Boston is linked to the Sea,
         whose smells and sounds once invaded the city.  The walk from the
@@ -120,7 +120,7 @@
           </ul>
         </div>
       </div>
-      <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full" src="/feature-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
+      <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full" src="/accessible-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
     </div>
 
     <div class="bg-periwinkle">

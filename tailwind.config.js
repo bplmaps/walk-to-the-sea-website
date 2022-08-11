@@ -61,6 +61,9 @@ module.exports = {
           'serif'
         ]
       },
+      lineHeight: {
+        condensed: '0.8'
+      },
       colors: ({ colors }) => ({
         cobalt: '#1f4dfc',
         midnight: '#1d1e2c',
