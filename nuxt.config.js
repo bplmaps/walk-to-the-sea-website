@@ -72,5 +72,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: [
+      'decode-named-character-reference',
+      'character-entities',
+      'micromark'
+    ]
   }
 }

@@ -21,9 +21,9 @@ video:
     caption: "Watch Boston's Transformation"
 accessibility:
     heading: "Accessibility and Route Planning"
-    paragraph: "The complete Walk to the Sea route is <strong>1.4 mi (2.25km)</strong>
+    paragraph: "The complete Walk to the Sea route is **1.4 mi (2.25km)**
                 in length.  From its highest point at the origin in Beacon Hill to the
-                lowest point at Long Wharf, the <strong>elevation loss is 220ft (67 m)</strong>."
+                lowest point at Long Wharf, the **elevation loss is 220ft (67 m)**."
     locations_intro: "The route is ADA accessible at the following locations:"
 footer_credit: "Walk to the Sea is a project of the Norman B. Leventhal Map and Education
                 Center, with generous support from the Mapping Boston Foundation."

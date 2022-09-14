@@ -93,12 +93,12 @@
           <h2 v-if="page.accessibility.heading" class="text-base leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
             {{ page.accessibility.heading }}
           </h2>
-          <p v-if="page.accessibility.paragraph || page.accessibility.locations_intro" class="font-sans text-base leading-tight mb-4 max-w-xs md:max-w-sm">
-            <span v-html="page.accessibility.paragraph" />
-            <template v-if="page.accessibility.locations_intro && allLocations.length">
+          <div v-if="page.accessibility.paragraph || page.accessibility.locations_intro" class="font-sans text-base leading-tight max-w-xs md:max-w-sm">
+            <render-markdown class="mb-4" :source="page.accessibility.paragraph" />
+            <p v-if="page.accessibility.locations_intro && allLocations.length" class="mb-4">
               {{ page.accessibility.locations_intro }}
-            </template>
-          </p>
+            </p>
+          </div>
           <ul
             v-if="accessibleLocations.length"
             class="text-lg tracking-tight xl:text-3xl 2xl:text-4xl"
