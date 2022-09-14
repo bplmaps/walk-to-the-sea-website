@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <map-embed />
-  </div>
+  <div />
 </template>
 
 <script>
 export default {
-  name: 'MapModal'
+  name: 'MapEmbed'
 }
 </script>

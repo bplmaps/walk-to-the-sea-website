@@ -6,8 +6,8 @@ order: 5
 latitude: 42.35933
 longitude: -71.0540602
 resources:
-  - type: nblcollection
-    id: commonwealth:7h14cv40z
+  - freedom-trail
+  - more-or-less-in-common
 ---
 
 ## The Waterfront Then and Now

@@ -1,7 +1,13 @@
 <template>
   <div class="font-serif">
-    <div class="relative">
-      <nuxt-img class="absolute object-cover object-center w-full h-full" src="/hero-index.jpg" sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw" />
+    <div v-if="page.hero" class="relative">
+      <nuxt-img
+        v-if="page.hero.img"
+        class="absolute object-cover object-center w-full h-full"
+        sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
+        :src="page.hero.img.src"
+        :alt="page.hero.img.alt"
+      />
       <div class="relative bg-midnight bg-opacity-40 text-white">
         <div class="relative container mx-auto px-5 pt-20 pb-14 min-h-screen flex flex-col items-stretch sm:pb-28 lg:flex-row lg:items-center xl:py-40">
           <nuxt-link
@@ -10,32 +16,29 @@
           >
             <nuxt-img class="h-10 my-5 w-auto xl:h-18 xl:my-12" src="/brand-wordmark.svg" alt="Walk to the Sea" />
           </nuxt-link>
-          <h1 class="text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
-            The Walk to the Sea covers four centuries of Boston history.
-            Beginning at the State House on Beacon Hill, overlooking the
-            old Boston Common, the Walk passes historic monuments and
-            skyscrapers.
+          <h1 v-if="page.hero.headline" class="text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
+            {{ page.hero.headline }}
           </h1>
-          <div class="lg:w-1/3">
-            <p class="text-lg text-center leading-none mb-14 max-w-sm mx-auto lg:max-w-lg xl:text-3xl 2xl:text-4xl">
-              Start your journey by selecting a location below or using the map button:
+          <div v-if="page.hero.intro" class="lg:w-1/3">
+            <p v-if="page.hero.intro.paragraph" class="text-lg text-center leading-none mb-14 max-w-sm mx-auto lg:max-w-lg xl:text-3xl 2xl:text-4xl">
+              {{ page.hero.intro.paragraph }}
             </p>
             <nav class="flex justify-center items-start 2xl:space-x-20">
-              <a href="#">
+              <nuxt-link to="/locations/">
                 <icon-button
                   icon="/icon-map.svg"
                   icon-alt="Map icon"
-                  text="Explore Map"
+                  :text="page.hero.intro.map_link"
                 />
-              </a>
+              </nuxt-link>
               <nuxt-link
                 v-if="allLocations.length"
-                :to="allLocations[0].slug"
+                :to="'/locations/' + allLocations[0].slug"
               >
                 <icon-button
                   icon="/icon-pin.svg"
                   icon-alt="Map pin icon"
-                  text="Head to the Water"
+                  :text="page.hero.intro.first_location_link"
                 />
               </nuxt-link>
             </nav>
@@ -44,13 +47,9 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
+    <div v-if="page.body_paragraph" class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
       <p class="text-3xl leading-none xl:text-4xl">
-        The Walk crosses a terain that, centuries before, was not land at
-        all, but an active port.  The history of Boston is linked to the Sea,
-        whose smells and sounds once invaded the city.  The walk from the
-        top to the sea, which stretches for a mile and descends a hundred
-        feet, gives life to that story.
+        {{ page.body_paragraph }}
       </p>
     </div>
 
@@ -61,8 +60,8 @@
       <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full" src="/feature-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
       <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:pr-8 lg:pr-14">
-          <h2 class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
-            Start your journey by selecting one of the locations:
+          <h2 v-if="page.locations_intro" class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
+            {{ page.locations_intro }}
           </h2>
           <ul class="text-2xl tracking-tight xl:text-5xl 2xl:text-6xl">
             <li
@@ -70,7 +69,7 @@
               :key="index"
             >
               <nuxt-link
-                :to="location.slug"
+                :to="'/locations/' + location.slug"
                 class="hover:underline"
               >
                 {{ location.title }}
@@ -81,25 +80,23 @@
       </div>
     </div>
 
-    <figure class="sm:container sm:mx-auto sm:px-5 sm:py-28 xl:max-w-[68rem]">
-      <video class="w-full aspect-video bg-black cursor-pointer" />
-      <figcaption class="font-sans mt-1 font-medium text-sm px-5 sm:px-0 lg:text-base">
-        Watch Boston's Transformation
+    <figure v-if="page.video" class="sm:container sm:mx-auto sm:px-5 sm:py-28 xl:max-w-[68rem]">
+      <video v-if="page.video" class="w-full aspect-video bg-black cursor-pointer" />
+      <figcaption v-if="page.video.caption" class="font-sans mt-1 font-medium text-sm px-5 sm:px-0 lg:text-base">
+        {{ page.video.caption }}
       </figcaption>
     </figure>
 
-    <div class="relative sm:bg-midnight sm:text-white">
+    <div v-if="page.accessibility" class="relative sm:bg-midnight sm:text-white">
       <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:ml-auto md:pl-8 lg:pl-14">
-          <h2 class="text-base leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
-            Accessibility and Route Planning
+          <h2 v-if="page.accessibility.heading" class="text-base leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
+            {{ page.accessibility.heading }}
           </h2>
-          <p class="font-sans text-base leading-tight mb-4 max-w-xs md:max-w-sm">
-            The complete Walk to the Sea route is <strong>1.4 mi (2.25km)</strong>
-            in length.  From its highest point at the origin in Beacon Hill to the
-            lowest point at Long Wharf, the <strong>elevation loss is 220ft (67 m)</strong>.
-            <template v-if="allLocations.length">
-              The route is ADA accessible at the following locations:
+          <p v-if="page.accessibility.paragraph || page.accessibility.locations_intro" class="font-sans text-base leading-tight mb-4 max-w-xs md:max-w-sm">
+            <span v-html="page.accessibility.paragraph" />
+            <template v-if="page.accessibility.locations_intro && allLocations.length">
+              {{ page.accessibility.locations_intro }}
             </template>
           </p>
           <ul
@@ -111,7 +108,7 @@
               :key="index"
             >
               <nuxt-link
-                :to="location.slug"
+                :to="'/locations/' + location.slug"
                 class="hover:underline"
               >
                 {{ location.title }}
@@ -123,11 +120,10 @@
       <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full" src="/accessible-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
     </div>
 
-    <div class="bg-periwinkle">
+    <div v-if="page.footer_credit" class="bg-periwinkle">
       <div class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
         <p class="text-base leading-none max-w-[18rem] sm:text-3xl sm:max-w-[34rem] xl:max-w-[52rem] 2xl:text-4xl 2xl:max-w-[60rem]">
-          Walk to the Sea is a project of the Norman B. Leventhal Map and Education
-          Center, with generous support from the Mapping Boston Foundation.
+          {{ page.footer_credit }}
         </p>
       </div>
     </div>
@@ -139,10 +135,13 @@ export default {
   name: 'IndexPage',
   layout: 'index',
   async asyncData ({ $content, params }) {
-    const allLocations = await $content().sortBy('order').fetch()
-    const accessibleLocations = await $content().sortBy('order').where({ accessible: true }).fetch()
+    const page = await $content('index')
+      .fetch()
 
-    return { allLocations, accessibleLocations }
+    const allLocations = await $content('locations').sortBy('order').fetch()
+    const accessibleLocations = await $content('locations').sortBy('order').where({ accessible: true }).fetch()
+
+    return { page, allLocations, accessibleLocations }
   },
   head: {
     title: 'Walk to the Sea',

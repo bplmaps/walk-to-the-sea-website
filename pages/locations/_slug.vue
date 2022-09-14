@@ -1,5 +1,6 @@
 <template>
   <div>
+    <locations-nav />
     <article class="container mx-auto px-5 py-14">
       <header class="md:w-3/4 lg:w-2/3 xl:w-1/2">
         <h1 class="font-serif text-4xl leading-condensed text-cobalt mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
@@ -35,13 +36,23 @@
           <h2 class="font-serif text-4xl leading-condensed mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
             Resources
           </h2>
-          <ul>
-            <li
+          <ul class="flex flex-col items-stretch space-y-8">
+            <template
               v-for="(resource, index) in page.resources"
-              :key="index"
             >
-              <inline-button text="Visit" />
-            </li>
+              <li
+                v-if="resources[resource]"
+                :key="index"
+              >
+                <h2 v-if="resources[resource].title" class="text-lg font-bold tracking-tight max-w-3xl xl:text-3xl">
+                  {{ resources[resource].title }}
+                </h2>
+                <p v-if="resources[resource].description" class="text-base xl:text-xl">
+                  {{ resources[resource].description }}
+                </p>
+                <inline-button v-if="resources[resource].link" :href="resources[resource].link" :target-blank="true" class="mt-4 lg:mt-6" text="Visit" />
+              </li>
+            </template>
           </ul>
         </div>
       </div>
@@ -59,13 +70,27 @@
 
 <script>
 export default {
+  name: 'LocationsSlug',
   async asyncData ({ $content, params }) {
     const slug = params.slug
-    const page = await $content(slug)
+    const page = await $content('locations/' + slug)
       .fetch()
 
+    const resources = {}
+
+    if (page.resources) {
+      const queriedResources = await $content('resources')
+        .where({ slug: { $in: page.resources } })
+        .fetch()
+
+      queriedResources.forEach((resource) => {
+        resources[resource.slug] = resource
+      })
+    }
+
     return {
-      page
+      page,
+      resources
     }
   }
 }
