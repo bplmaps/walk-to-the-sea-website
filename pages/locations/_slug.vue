@@ -1,5 +1,6 @@
 <template>
   <div>
+    <the-header />
     <locations-nav />
     <article class="container mx-auto px-5 py-14">
       <header class="md:w-3/4 lg:w-2/3 xl:w-1/2">
@@ -57,14 +58,14 @@
         </div>
       </div>
     </div>
-    <button class="fixed z-40 bottom-0 right-0 group inline-block m-5">
+    <nuxt-link to="/locations/" class="fixed z-40 bottom-0 right-0 group inline-block m-5">
       <span class="flex justify-center items-center w-16 h-16 rounded-full overflow-hidden bg-cobalt bg-opacity-80 mx-auto mb-4 transition duration-150 group-hover:bg-opacity-100 xl:w-20 xl:h-20">
         <nuxt-img class="h-1/2 w-auto" src="/icon-map.svg" alt="Map icon" />
       </span>
       <span class="sr-only">
         Open map
       </span>
-    </button>
+    </nuxt-link>
   </div>
 </template>
 

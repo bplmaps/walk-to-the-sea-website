@@ -1,5 +1,6 @@
 <template>
   <div>
+    <the-header />
     <map-embed />
   </div>
 </template>

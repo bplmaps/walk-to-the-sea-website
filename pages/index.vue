@@ -1,10 +1,12 @@
 <template>
   <div class="font-serif">
     <div v-if="page.hero" class="relative">
-      <div class="absolute z-50 inset-0 w-full h-full flex justify-center items-center">
+      <div
+        class="absolute z-50 inset-0 w-full h-full flex justify-center items-center transition-opacity duration-1000 ease-in-out"
+        :class="!showSplash && 'opacity-0 pointer-events-none'"
+      >
         <nuxt-img
-          class="block m-auto w-3/4 max-w-3xl h-auto transition-opacity duration-1000 ease-in-out sm:w-1/2"
-          :class="!showSplash && 'opacity-0 pointer-events-none'"
+          class="block m-auto w-3/4 max-w-3xl h-auto sm:w-1/2"
           src="/brand-logo.png"
           alt="Walk to the Sea logo"
           sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw"
@@ -160,7 +162,6 @@
 <script>
 export default {
   name: 'IndexPage',
-  layout: 'index',
   async asyncData ({ $content, params }) {
     const page = await $content('index')
       .fetch()
