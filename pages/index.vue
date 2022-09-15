@@ -54,16 +54,25 @@
     </div>
 
     <div
-      v-if="allLocations.length"
+      v-if="page.locations"
       class="relative bg-midnight text-pewter"
     >
-      <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full" src="/feature-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
+      <nuxt-img
+        v-if="page.locations.img"
+        class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:right-0 md:w-1/2 md:h-full"
+        sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw"
+        :src="page.locations.img.src"
+        :alt="page.locations.img.alt"
+      />
       <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:pr-8 lg:pr-14">
-          <h2 v-if="page.locations_intro" class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
-            {{ page.locations_intro }}
+          <h2 v-if="page.locations.heading" class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
+            {{ page.locations.heading }}
           </h2>
-          <ul class="text-2xl tracking-tight xl:text-5xl 2xl:text-6xl">
+          <ul
+            v-if="allLocations.length"
+            class="text-2xl tracking-tight xl:text-5xl 2xl:text-6xl"
+          >
             <li
               v-for="(location, index) in allLocations"
               :key="index"
@@ -117,7 +126,13 @@
           </ul>
         </div>
       </div>
-      <nuxt-img class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full" src="/accessible-index.jpg" sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw" />
+      <nuxt-img
+        v-if="page.accessibility.img"
+        class="block w-full h-auto bg-black aspect-square object-cover object-center md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full"
+        sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw"
+        :src="page.accessibility.img.src"
+        :alt="page.accessibility.img.alt"
+      />
     </div>
 
     <div v-if="page.footer_credit" class="bg-periwinkle">

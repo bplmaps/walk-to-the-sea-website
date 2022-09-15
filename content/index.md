@@ -16,10 +16,17 @@ body_paragraph: "The Walk crosses a terain that, centuries before, was not land 
                  whose smells and sounds once invaded the city.  The walk from the
                  top to the sea, which stretches for a mile and descends a hundred
                  feet, gives life to that story."
-locations_intro: "Start your journey by selecting one of the locations:"
+locations:
+    img:
+        src: "/feature-index.jpg"
+        alt: ""
+    heading: "Start your journey by selecting one of the locations:"
 video:
     caption: "Watch Boston's Transformation"
 accessibility:
+    img:
+        src: "/accessible-index.jpg"
+        alt: ""
     heading: "Accessibility and Route Planning"
     paragraph: "The complete Walk to the Sea route is **1.4 mi (2.25km)**
                 in length.  From its highest point at the origin in Beacon Hill to the

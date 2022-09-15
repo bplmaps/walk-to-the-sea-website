@@ -17,10 +17,10 @@
             v-if="page.latitude && page.longitude"
             :href="'geo:' + page.latitude + ',' + page.longitude"
           >
-            <inline-button text="Directions" />
+            <inline-button text="Directions" href="#" />
           </a>
           <a href="#resources">
-            <inline-button text="Resources" />
+            <inline-button text="Resources" href="#" />
           </a>
         </div>
       </header>
