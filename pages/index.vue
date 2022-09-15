@@ -1,6 +1,15 @@
 <template>
   <div class="font-serif">
     <div v-if="page.hero" class="relative">
+      <div class="absolute z-50 inset-0 w-full h-full flex justify-center items-center">
+        <nuxt-img
+          class="block m-auto w-3/4 max-w-3xl h-auto transition-opacity duration-1000 ease-in-out sm:w-1/2"
+          :class="!showSplash && 'opacity-0 pointer-events-none'"
+          src="/brand-logo.png"
+          alt="Walk to the Sea logo"
+          sizes="sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw"
+        />
+      </div>
       <nuxt-img
         v-if="page.hero.img"
         class="absolute object-cover object-center w-full h-full"
@@ -9,7 +18,10 @@
         :alt="page.hero.img.alt"
       />
       <div class="relative bg-midnight bg-opacity-40 text-white">
-        <div class="relative container mx-auto px-5 pt-20 pb-14 min-h-screen flex flex-col items-stretch sm:pb-28 lg:flex-row lg:items-center xl:py-40">
+        <div
+          class="relative container mx-auto px-5 pt-20 pb-14 min-h-screen flex flex-col items-stretch transition-opacity duration-1000 ease-in-out sm:pb-28 lg:flex-row lg:items-center xl:py-40"
+          :class="showSplash && 'opacity-0 pointer-events-none'"
+        >
           <nuxt-link
             to="/"
             class="absolute top-0"
@@ -158,6 +170,11 @@ export default {
 
     return { page, allLocations, accessibleLocations }
   },
+  data () {
+    return {
+      showSplash: true
+    }
+  },
   head: {
     title: 'Walk to the Sea',
     meta: [
@@ -167,6 +184,11 @@ export default {
         content: 'The Walk to the Sea covers four centuries of Boston history. Beginning at the State House on Beacon Hill, overlooking the old Boston Common, the Walk passes historic monuments and skyscrapers.'
       }
     ]
+  },
+  mounted () {
+    setTimeout(() => {
+      this.showSplash = false
+    }, 2000)
   }
 }
 </script>
