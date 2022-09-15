@@ -14,7 +14,7 @@
             to="/"
             class="absolute top-0"
           >
-            <nuxt-img class="h-10 my-5 w-auto xl:h-18 xl:my-12" src="/brand-wordmark.svg" alt="Walk to the Sea" />
+            <nuxt-img class="h-10 my-5 w-auto xl:h-18 xl:my-12" src="/brand-wordmark.svg" alt="Walk to the Sea wordmark" />
           </nuxt-link>
           <h1 v-if="page.hero.headline" class="text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
             {{ page.hero.headline }}

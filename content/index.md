@@ -19,14 +19,14 @@ body_paragraph: "The Walk crosses a terain that, centuries before, was not land 
 locations:
     img:
         src: "/feature-index.jpg"
-        alt: ""
+        alt: "Photo of Customs House Observation Tower"
     heading: "Start your journey by selecting one of the locations:"
 video:
     caption: "Watch Boston's Transformation"
 accessibility:
     img:
         src: "/accessible-index.jpg"
-        alt: ""
+        alt: "Photo of accesibility route sign"
     heading: "Accessibility and Route Planning"
     paragraph: "The complete Walk to the Sea route is **1.4 mi (2.25km)**
                 in length.  From its highest point at the origin in Beacon Hill to the
