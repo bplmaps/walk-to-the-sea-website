@@ -25,6 +25,17 @@
           </a>
         </div>
       </header>
+      <div
+        v-if="false"
+      >
+        <template
+          v-for="(image, index) in page.images"
+        >
+          <div :key="index">
+            {{ image.type }}
+          </div>
+        </template>
+      </div>
       <nuxt-content id="main" class="prose max-w-[52rem] mx-auto py-14 sm:py-28 2xl:max-w-[68rem]" :document="page" />
     </article>
     <div
