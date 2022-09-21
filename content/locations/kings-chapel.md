@@ -3,7 +3,7 @@ title: King's Chapel
 description: Around 1750, the present, stone version of King’s Chapel replaced the wooden structure of 1688. King James II had ordered the wooden chapel built. It was the first Anglican church in Boston, erected on the old burying ground over strong Puritan objections. Puritan power had weakened, and James had appointed a royal governor to administer the colonies of Massachusetts.
 accessible: false
 order: 1
-latitude: 42.3581554
+latitude: 42.3580254
 longitude: -71.0603897
 ---
 

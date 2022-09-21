@@ -4,7 +4,7 @@ description: Boston’s Financial District took root here along prominent King S
 accessible: false
 order: 4
 latitude: 42.359048
-longitude: -71.0560232
+longitude: -71.0553232
 ---
 
 ## The Historic Shoreline & The Growing City

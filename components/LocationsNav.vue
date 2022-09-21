@@ -24,12 +24,18 @@ export default {
     }
   },
   async fetch () {
-    this.locations = await this.$content('locations').sortBy('order').fetch()
+    this.locations = await this.$content('locations')
+      .sortBy('order')
+      .fetch()
 
     const slug = this.$route.params.slug
-    const page = await this.$content('locations/' + slug).fetch()
+    const page = await this.$content('locations/' + slug)
+      .fetch()
 
-    const [prevLocation, nextLocation] = await this.$content('locations').sortBy('order').surround(page.slug).fetch()
+    const [prevLocation, nextLocation] = await this.$content('locations')
+      .sortBy('order')
+      .surround(page.slug)
+      .fetch()
 
     this.prevLocation = prevLocation
     this.nextLocation = nextLocation

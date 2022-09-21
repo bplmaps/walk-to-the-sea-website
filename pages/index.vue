@@ -156,6 +156,8 @@
         </p>
       </div>
     </div>
+
+    <the-footer />
   </div>
 </template>
 
@@ -166,8 +168,13 @@ export default {
     const page = await $content('index')
       .fetch()
 
-    const allLocations = await $content('locations').sortBy('order').fetch()
-    const accessibleLocations = await $content('locations').sortBy('order').where({ accessible: true }).fetch()
+    const allLocations = await $content('locations')
+      .sortBy('order')
+      .fetch()
+    const accessibleLocations = await $content('locations')
+      .sortBy('order')
+      .where({ accessible: true })
+      .fetch()
 
     return { page, allLocations, accessibleLocations }
   },

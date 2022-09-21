@@ -68,7 +68,8 @@ module.exports = {
         cobalt: '#1f4dfc',
         midnight: '#1d1e2c',
         pewter: '#ccd0d9',
-        periwinkle: '#e0e6ff'
+        periwinkle: '#e0e6ff',
+        cornflower: '#839cff'
       }),
       typography: theme => ({
         DEFAULT: {

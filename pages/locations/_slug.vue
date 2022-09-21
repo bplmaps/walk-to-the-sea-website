@@ -77,6 +77,8 @@
         Open map
       </span>
     </nuxt-link>
+
+    <the-footer />
   </div>
 </template>
 
