@@ -12,7 +12,7 @@
         </p>
         <div class="flex flex-wrap space-x-2">
           <inline-button text="Read more" href="#main" />
-          <inline-button v-if="page.latitude && page.longitude" text="Directions" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" target="_blank" />
+          <inline-button v-if="page.latitude && page.longitude" text="Directions" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" :target-blank="true" />
           <inline-button v-if="page.resources" text="Resources" href="#resources" />
         </div>
       </header>
