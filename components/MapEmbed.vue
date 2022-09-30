@@ -23,7 +23,7 @@
       </vl-geoloc>
 
       <vl-layer-tile>
-        <vl-source-xyz :attributions="attributions" :url="url" :max-zoom="maxZoom" />
+        <vl-source-xyz :url="url" :max-zoom="maxZoom" />
       </vl-layer-tile>
 
       <vl-feature
@@ -58,8 +58,8 @@
             :style="{ width: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem'), height: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem') }"
           />
           <span
-            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full p-1 px-2 backdrop-blur-md md:-translate-x-1/2 md:-translate-y-1/2"
-            :class="(index % 2 === 0 ? 'md:-mt-16' : 'md:mt-16') + ' ' + (location.slug === lastLocation ? 'bg-cobalt text-white' : 'bg-cornflower text-cobalt bg-opacity-50')"
+            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full p-1 px-2 backdrop-blur-lg backdrop-grayscale md:-translate-x-1/2 md:-translate-y-1/2"
+            :class="(index % 2 === 0 ? 'md:-mt-12' : 'md:mt-12') + ' ' + (location.slug === lastLocation ? 'bg-cobalt text-white' : 'bg-cornflower text-cobalt bg-opacity-30')"
           >
             {{ location.title }}
           </span>
