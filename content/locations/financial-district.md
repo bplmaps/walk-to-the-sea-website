@@ -3,8 +3,8 @@ title: Financial District
 description: Boston’s Financial District took root here along prominent King Street (now State Street) with the rich flow of goods that arrived at Long Wharf. Merchants located their offices, stores, and warehouses here, close by the wharves and the merchants' exchange.
 accessible: false
 order: 4
-latitude: 42.359048
-longitude: -71.0553232
+latitude: 42.358990
+longitude: -71.0555232
 ---
 
 ## The Historic Shoreline & The Growing City

@@ -3,8 +3,8 @@ title: Custom House
 description: The Custom House was built so close to the water that the bowsprits of arriving ships could touch it, though the shoreline has since moved. Around 1913, the federal government built a 433-foot tower to enlarge the Custom House. For nearly a half century the tower dominated Boston's skyline, while, ironically, waterfront activity and port services declined.
 accessible: true
 order: 5
-latitude: 42.35929
-longitude: -71.0535000
+latitude: 42.359325
+longitude: -71.0531600
 images:
   - type: iiif
     src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1257b896v"

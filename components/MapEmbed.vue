@@ -22,17 +22,13 @@
         </template>
       </vl-geoloc>
 
-      <vl-layer-tile
-        id="osm"
-        class="filter grayscale"
-      >
-        <vl-source-osm />
+      <vl-layer-tile>
+        <vl-source-xyz :attributions="attributions" :url="url" :max-zoom="maxZoom" />
       </vl-layer-tile>
 
       <vl-feature
         v-for="(location, index) in locations"
         :key="index"
-        @click="alert('hi')"
       >
         <vl-geom-point
           :coordinates="[location.longitude, location.latitude]"
@@ -41,11 +37,7 @@
         <vl-style>
           <vl-style-circle :radius="10">
             <vl-style-fill
-              :color="location.slug === lastLocation ? '#1f4dfc' : '#839cff'"
-            />
-            <vl-style-text
-              :text="location.title"
-              :offset-y="-20"
+              :color="location.slug === lastLocation ? '#1f4dfc' : '#345aa7'"
             />
           </vl-style-circle>
         </vl-style>
@@ -60,27 +52,19 @@
           :to="'/locations/' + location.slug"
           class="cursor-pointer"
         >
-          <span class="absolute h-5 w-5 transform -translate-x-1/2 -translate-y-1/2" />
           <span
-            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full p-1 px-2 md:-translate-x-1/2 md:-translate-y-1/2"
+            class="absolute block transform -translate-x-1/2 -translate-y-1/2"
+            :class="(location.slug === lastLocation ? 'map-pulse' : '')"
+            :style="{ width: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem'), height: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem') }"
+          />
+          <span
+            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full p-1 px-2 backdrop-blur-md md:-translate-x-1/2 md:-translate-y-1/2"
             :class="(index % 2 === 0 ? 'md:-mt-16' : 'md:mt-16') + ' ' + (location.slug === lastLocation ? 'bg-cobalt text-white' : 'bg-cornflower text-cobalt bg-opacity-50')"
           >
             {{ location.title }}
           </span>
         </nuxt-link>
       </vl-overlay>
-
-      <vl-feature v-if="lineCoordinates.length">
-        <vl-geom-line-string :coordinates="lineCoordinates" />
-
-        <vl-style>
-          <vl-style-stroke
-            color="#839cff"
-            :width="5"
-            :line-dash="[1, 8]"
-          />
-        </vl-style>
-      </vl-feature>
     </vl-map>
 
     <div
@@ -119,12 +103,14 @@ export default {
     return {
       debug: false,
       zoom: 15.25,
+      maxZoom: 19,
       center: [-71.056187, 42.358524],
       extent: [-71.076187, 42.348524, -71.036187, 42.368524],
       point: [38.726634, 9.003391],
       coordinates: [],
       locations: [],
       rotation: 0,
+      url: 'https://s3.us-east-2.wasabisys.com/boston-tilesets/walk-to-the-sea/{z}/{x}/{y}.png',
       geolocPosition: undefined
     }
   },
@@ -160,3 +146,49 @@ export default {
   }
 }
 </script>
+
+<style lang="postcss" scoped>
+.map-pulse::before {
+  @apply relative block bg-cobalt rounded-full;
+
+  content: " ";
+  width: 300%;
+  height: 300%;
+  margin-left: -100%;
+  margin-top: -100%;
+  animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.map-pulse::after {
+  @apply absolute block bg-white rounded-full w-full h-full inset-0 border-2 border-cobalt;
+
+  content: " ";
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.33);
+  }
+
+  80%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+</style>

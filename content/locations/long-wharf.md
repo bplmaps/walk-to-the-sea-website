@@ -3,8 +3,8 @@ title: Long Wharf
 description: The sea is Boston’s front door. From the city’s inception, Bostonians relied on the sea for transportation, trade, defense, and the city’s expansion. Though these interests still influence the use of Boston Harbor, its public role as a cultural and recreational asset has received greater prominence since the 1970s.
 accessible: true
 order: 7
-latitude: 42.360163
-longitude: -71.0489932
+latitude: 42.360155
+longitude: -71.0484532
 ---
 
 Like an arrow pointing back to the Old World, Long Wharf, built in 1711, dominated Boston Harbor. It reached well past approximately 80 other wharves bristling out from the Shawmut Peninsula. About a third of a mile long, it extended the town's main commercial street, King Street (now State Street), far into the harbor.

@@ -3,8 +3,8 @@ title: Rose Kennedy Greenway
 description: The Rose Kennedy Greenway, completed in 2008, is a network of gardens and public spaces, named for the mother of long-serving, distinguished Massachusetts Senator Edward M. Kennedy and his brothers, President John F. Kennedy and New York Senator Robert F. Kennedy.
 accessible: false
 order: 6
-latitude: 42.359640
-longitude: -71.052000
+latitude: 42.359620
+longitude: -71.051600
 ---
 
 Here stood Boston’s "Highway in the Sky," so labeled in the 1950s by local media expressing the official hopes for a new elevated expressway.
