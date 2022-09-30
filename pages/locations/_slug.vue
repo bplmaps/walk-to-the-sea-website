@@ -11,18 +11,9 @@
           {{ page.description }}
         </p>
         <div class="flex flex-wrap space-x-2">
-          <a href="#main">
-            <inline-button text="Read more" />
-          </a>
-          <a
-            v-if="page.latitude && page.longitude"
-            :href="'geo:' + page.latitude + ',' + page.longitude"
-          >
-            <inline-button text="Directions" href="#" />
-          </a>
-          <a href="#resources">
-            <inline-button text="Resources" href="#" />
-          </a>
+          <inline-button text="Read more" href="#main" />
+          <inline-button v-if="page.latitude && page.longitude" text="Directions" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" target="_blank" />
+          <inline-button v-if="page.resources" text="Resources" href="#resources" />
         </div>
       </header>
       <div
