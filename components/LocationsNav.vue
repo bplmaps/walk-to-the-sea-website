@@ -2,7 +2,7 @@
   <nav class="sticky top-0 inset-x-0 z-50 bg-cobalt text-white text-base tracking-tighter flex flex-wrap justify-between lg:justify-center xl:text-lg 2xl:text-xl">
     <nuxt-link
       v-for="(location, index) in locations"
-      :key="index"
+      :key="'location_nav_' + index"
       :to="'/locations/' + location.slug"
       class="inline-block py-3 px-2 hover:underline lg:mx-0 xl:px-4"
       :class="locationClass(location)"

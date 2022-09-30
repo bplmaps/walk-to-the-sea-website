@@ -89,7 +89,7 @@
           >
             <li
               v-for="(location, index) in allLocations"
-              :key="index"
+              :key="'locations_' + index"
             >
               <nuxt-link
                 :to="'/locations/' + location.slug"
@@ -128,7 +128,7 @@
           >
             <li
               v-for="(location, index) in accessibleLocations"
-              :key="index"
+              :key="'accessible_locations_' + index"
             >
               <nuxt-link
                 :to="'/locations/' + location.slug"

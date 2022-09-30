@@ -28,7 +28,7 @@
 
       <vl-feature
         v-for="(location, index) in locations"
-        :key="index"
+        :key="'vl_feature_' + index"
       >
         <vl-geom-point
           :coordinates="[location.longitude, location.latitude]"
@@ -45,7 +45,7 @@
 
       <vl-overlay
         v-for="(location, index) in locations"
-        :key="index"
+        :key="'vl_overlay_' + index"
         :position="[location.longitude, location.latitude]"
       >
         <nuxt-link

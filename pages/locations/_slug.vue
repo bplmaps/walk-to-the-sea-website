@@ -31,7 +31,7 @@
         <template
           v-for="(image, index) in page.images"
         >
-          <div :key="index">
+          <div :key="'location_image_' + index">
             {{ image.type }}
           </div>
         </template>
@@ -54,7 +54,7 @@
             >
               <li
                 v-if="resources[resource]"
-                :key="index"
+                :key="'location_resource_' + index"
               >
                 <h2 v-if="resources[resource].title" class="text-lg font-bold tracking-tight max-w-3xl xl:text-3xl">
                   {{ resources[resource].title }}
