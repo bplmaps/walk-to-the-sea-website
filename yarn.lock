@@ -8201,6 +8201,14 @@ ol-mapbox-style@^8.0.5:
     "@mapbox/mapbox-gl-style-spec" "^13.23.1"
     mapbox-to-css-font "^2.4.1"
 
+ol-mapbox-style@^9.2.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/ol-mapbox-style/-/ol-mapbox-style-9.2.0.tgz#a92944ff53e2743a28dbd5a04367f489245d5c84"
+  integrity sha512-DJPJP+7Kur2JGxoIsOkCLe3S/A6An0v/VSrQTGm6D8jsUh5CIuZrUWwZfGfiC3hHiWLSe+LrTahhVMN2qegNVQ==
+  dependencies:
+    "@mapbox/mapbox-gl-style-spec" "^13.23.1"
+    mapbox-to-css-font "^2.4.1"
+
 ol-rotate-feature@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/ol-rotate-feature/-/ol-rotate-feature-3.0.1.tgz#185c2c9969ab8cd5f79d7ca6da0fb658bf74119e"
@@ -11228,11 +11236,6 @@ through@^2.3.6:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
-
-tify@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/tify/-/tify-0.27.0.tgz#4c39050478b7554df075d1262cf21f5915a536e6"
-  integrity sha512-xg+/eTQrYK18l+K0KxWv5ac7vDp/lRnotMTwhZa4gVRBpbPzSL2EMkxiRcHgCZAasnumrMPuNtj5o2YGyebmoQ==
 
 time-fix-plugin@^2.0.7:
   version "2.0.7"

@@ -23,6 +23,10 @@
       </vl-geoloc>
 
       <vl-layer-tile>
+        <vl-source-xyz :url="maptilerUrl" :max-zoom="maxZoom" />
+      </vl-layer-tile>
+
+      <vl-layer-tile>
         <vl-source-xyz :url="url" :max-zoom="maxZoom" />
       </vl-layer-tile>
 
@@ -111,6 +115,7 @@ export default {
       locations: [],
       rotation: 0,
       url: 'https://s3.us-east-2.wasabisys.com/boston-tilesets/walk-to-the-sea/{z}/{x}/{y}.png',
+      maptilerUrl: 'https://api.maptiler.com/maps/toner/{z}/{x}/{y}.png?key=LsmEYuxlnGYrucDaNC45',
       geolocPosition: undefined
     }
   },
