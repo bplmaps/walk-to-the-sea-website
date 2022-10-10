@@ -1,5 +1,6 @@
 ---
 title: Long Wharf
+metaDescription: The sea is Boston’s front door. From the city’s inception, Bostonians relied on the sea for transportation, trade, defense, and the city’s expansion.
 description: The sea is Boston’s front door. From the city’s inception, Bostonians relied on the sea for transportation, trade, defense, and the city’s expansion. Though these interests still influence the use of Boston Harbor, its public role as a cultural and recreational asset has received greater prominence since the 1970s.
 accessible: true
 order: 7

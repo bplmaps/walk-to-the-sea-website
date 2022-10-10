@@ -1,5 +1,6 @@
 ---
 title: Financial District
+metaDescription: Boston’s Financial District took root here along prominent King Street (now State Street) with the rich flow of goods that arrived at Long Wharf.
 description: Boston’s Financial District took root here along prominent King Street (now State Street) with the rich flow of goods that arrived at Long Wharf. Merchants located their offices, stores, and warehouses here, close by the wharves and the merchants' exchange.
 accessible: false
 order: 4

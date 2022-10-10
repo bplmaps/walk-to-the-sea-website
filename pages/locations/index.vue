@@ -15,11 +15,23 @@
 export default {
   name: 'LocationsIndex',
   async asyncData ({ $content, params }) {
-    const page = await $content('locations')
+    const page = await $content('locations-index')
       .fetch()
 
     return {
       page
+    }
+  },
+  head () {
+    return {
+      titleTemplate: this.page.title + ' -  %s',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.metaDescription
+        }
+      ]
     }
   }
 }

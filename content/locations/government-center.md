@@ -1,5 +1,6 @@
 ---
 title: Government Center
+metaDescription: Eventually, public opinion censured the lively squalor, and Scollay Square became a candidate for urban renewal.
 description: Eventually, public opinion censured the lively squalor, and Scollay Square became a candidate for urban renewal. Its buildings were razed and replaced by the "superblocks" of Government Center, where, by 1969, a monumental new City Hall anchored a vast 10-acre plaza. Bostonians still debate the consequences of urban renewal, but the bold rebuilding reversed the decline in Boston's fortunes that occurred during the first half of the 20th century.
 accessible: true
 order: 2

@@ -11,12 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'format-detection', content: 'telephone=no' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'The Walk to the Sea covers four centuries of Boston history. Beginning at the State House on Beacon Hill, overlooking the old Boston Common, the Walk passes historic monuments and skyscrapers.'
-      }
+      { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

@@ -1,5 +1,6 @@
 ---
 title: Old State House
+metaDescription: The Old State House, the oldest public building in Boston, bears on its gables a gilded unicorn and lion.
 description: The Old State House, the oldest public building in Boston, bears on its gables a gilded unicorn and lion. These symbols of English dominion were removed after the Revolution and later replaced by replicas. The building occupied Boston's most prominent intersection. King (now State) Street led from the Old State House to Long Wharf. Washington Street, the only street connecting Boston to the mainland, crossed King Street here.
 accessible: false
 order: 3

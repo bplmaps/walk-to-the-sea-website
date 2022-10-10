@@ -183,15 +183,17 @@ export default {
       showSplash: true
     }
   },
-  head: {
-    title: 'Walk to the Sea',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'The Walk to the Sea covers four centuries of Boston history. Beginning at the State House on Beacon Hill, overlooking the old Boston Common, the Walk passes historic monuments and skyscrapers.'
-      }
-    ]
+  head () {
+    return {
+      titleTemplate: this.page.title + ' -  %s',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.metaDescription
+        }
+      ]
+    }
   },
   mounted () {
     setTimeout(() => {

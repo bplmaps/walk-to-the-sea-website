@@ -1,5 +1,6 @@
 ---
 title: Beacon Hill
+metaDescription: After the American Revolution, Beacon Hill became central to Boston’s rapid growth.
 description: After the American Revolution, Beacon Hill became central to Boston’s rapid growth. The hilltop was carted away for fill, smoothing the way for new development. As portrayed at right, an elegant new State House replaced John Hancock’s estate, and wealthy insiders bought up Beacon Hill to sell as house lots. Within a few decades, gracious townhouses lined the new streets of Beacon Hill, and Boston Common became a park.
 accessible: false
 order: 0

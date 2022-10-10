@@ -97,6 +97,18 @@ export default {
       page,
       resources
     }
+  },
+  head () {
+    return {
+      titleTemplate: this.page.title + ' -  %s',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.metaDescription
+        }
+      ]
+    }
   }
 }
 </script>
