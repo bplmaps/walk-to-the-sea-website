@@ -2,12 +2,19 @@
   <div
     v-resize="setRotation"
   >
+    <div
+      class="absolute inset-0 w-full h-full flex justify-center items-center text-xl font-semibold"
+    >
+      Loading...
+    </div>
     <vl-map
       ref="map"
-      class="absolute inset-0 w-full h-full"
+      class="absolute inset-0 w-full h-full transition-opacity duration-500 ease-in-out"
+      :class="!mapLoaded && 'opacity-0'"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       data-projection="EPSG:4326"
+      @created="mapCreated"
     >
       <vl-view :zoom.sync="zoom" :center.sync="center" :extent.sync="extent" :rotation.sync="rotation" :max-zoom="maxZoom" />
 
@@ -106,6 +113,7 @@ export default {
   data () {
     return {
       debug: false,
+      mapLoaded: false,
       zoom: 15.25,
       maxZoom: 19,
       center: [-71.056187, 42.358524],
@@ -141,6 +149,9 @@ export default {
     }
   },
   methods: {
+    mapCreated (vm) {
+      this.mapLoaded = true
+    },
     setRotation ({ width }) {
       if (width >= breakpoint) {
         this.rotation = desktopRotation
