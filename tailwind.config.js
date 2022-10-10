@@ -71,10 +71,41 @@ module.exports = {
         periwinkle: '#e0e6ff',
         cornflower: '#839cff'
       }),
-      typography: theme => ({
-        DEFAULT: {
+      typography: ({ theme }) => ({
+        midnight: {
           css: {
-            color: theme('colors.midnight')
+            '--tw-prose-body': theme('colors.midnight'),
+            '--tw-prose-headings': theme('colors.midnight'),
+            '--tw-prose-lead': theme('colors.midnight'),
+            '--tw-prose-links': theme('colors.midnight'),
+            '--tw-prose-bold': theme('colors.midnight'),
+            '--tw-prose-counters': theme('colors.midnight'),
+            '--tw-prose-bullets': theme('colors.midnight'),
+            '--tw-prose-hr': theme('colors.midnight'),
+            '--tw-prose-quotes': theme('colors.midnight'),
+            '--tw-prose-quote-borders': theme('colors.midnight'),
+            '--tw-prose-captions': theme('colors.midnight'),
+            '--tw-prose-code': theme('colors.midnight'),
+            '--tw-prose-pre-code': theme('colors.midnight'),
+            '--tw-prose-pre-bg': theme('colors.midnight'),
+            '--tw-prose-th-borders': theme('colors.midnight'),
+            '--tw-prose-td-borders': theme('colors.midnight'),
+            '--tw-prose-invert-body': theme('colors.midnight'),
+            '--tw-prose-invert-headings': theme('colors.midnight'),
+            '--tw-prose-invert-lead': theme('colors.midnight'),
+            '--tw-prose-invert-links': theme('colors.midnight'),
+            '--tw-prose-invert-bold': theme('colors.midnight'),
+            '--tw-prose-invert-counters': theme('colors.midnight'),
+            '--tw-prose-invert-bullets': theme('colors.midnight'),
+            '--tw-prose-invert-hr': theme('colors.midnight'),
+            '--tw-prose-invert-quotes': theme('colors.midnight'),
+            '--tw-prose-invert-quote-borders': theme('colors.midnight'),
+            '--tw-prose-invert-captions': theme('colors.midnight'),
+            '--tw-prose-invert-code': theme('colors.midnight'),
+            '--tw-prose-invert-pre-code': theme('colors.midnight'),
+            '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
+            '--tw-prose-invert-th-borders': theme('colors.midnight'),
+            '--tw-prose-invert-td-borders': theme('colors.midnight')
           }
         }
       }),

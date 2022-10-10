@@ -7,7 +7,7 @@
         <h1 class="font-serif text-4xl leading-condensed text-cobalt mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
           {{ page.title }}
         </h1>
-        <p class="text-3xl leading-none mb-4 lg:mb-8 xl:text-4xl">
+        <p class="text-midnight text-3xl leading-none mb-4 lg:mb-8 xl:text-4xl">
           {{ page.description }}
         </p>
         <div class="flex flex-wrap space-x-2">
@@ -27,7 +27,7 @@
           </div>
         </template>
       </div>
-      <nuxt-content id="main" class="prose max-w-[52rem] mx-auto py-14 sm:py-28 2xl:max-w-[68rem]" :document="page" />
+      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto py-14 sm:py-28 2xl:max-w-[68rem]" :document="page" />
     </article>
     <div
       v-if="page.resources"
