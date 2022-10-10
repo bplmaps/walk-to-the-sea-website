@@ -9,7 +9,7 @@
       :load-tiles-while-interacting="true"
       data-projection="EPSG:4326"
     >
-      <vl-view :zoom.sync="zoom" :center.sync="center" :extent.sync="extent" :rotation.sync="rotation" />
+      <vl-view :zoom.sync="zoom" :center.sync="center" :extent.sync="extent" :rotation.sync="rotation" :max-zoom="maxZoom" />
 
       <vl-geoloc @update:position="geolocPosition = $event">
         <template #default="geoloc">
@@ -23,11 +23,11 @@
       </vl-geoloc>
 
       <vl-layer-tile>
-        <vl-source-xyz :url="maptilerUrl" :max-zoom="maxZoom" />
+        <vl-source-xyz :url="maptilerUrl" />
       </vl-layer-tile>
 
       <vl-layer-tile>
-        <vl-source-xyz :url="url" :max-zoom="maxZoom" />
+        <vl-source-xyz :url="url" />
       </vl-layer-tile>
 
       <vl-feature
