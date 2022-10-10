@@ -1,5 +1,8 @@
 <template>
-  <div class="font-serif">
+  <div
+    class="font-serif"
+    :class="showSplash && 'h-screen overflow-hidden'"
+  >
     <div v-if="page.hero" class="relative">
       <div
         class="absolute z-50 inset-0 w-full h-full flex justify-center items-center transition-opacity duration-1000 ease-in-out"
