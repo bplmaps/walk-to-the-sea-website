@@ -2,8 +2,8 @@
   <div>
     <the-header />
     <locations-nav />
-    <article class="container mx-auto px-5 py-14">
-      <header class="md:w-3/4 lg:w-2/3 xl:w-1/2">
+    <article class="container mx-auto px-5 py-14 sm:py-28">
+      <header class="mb-14 sm:mb-28 md:w-3/4 lg:w-2/3 xl:w-1/2">
         <h1 class="font-serif text-4xl leading-condensed text-cobalt mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
           {{ page.title }}
         </h1>
@@ -27,7 +27,7 @@
           </div>
         </template>
       </div>
-      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto py-14 sm:py-28 2xl:max-w-[68rem]" :document="page" />
+      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto 2xl:max-w-[68rem]" :document="page" />
     </article>
     <div
       v-if="page.resources"

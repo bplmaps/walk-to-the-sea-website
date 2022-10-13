@@ -1,15 +1,27 @@
 <template>
-  <nav class="sticky top-0 inset-x-0 z-50 bg-cobalt text-white text-base tracking-tighter flex flex-wrap justify-between lg:justify-center xl:text-lg 2xl:text-xl">
-    <nuxt-link
-      v-for="(location, index) in locations"
-      :key="'location_nav_' + index"
-      :to="'/locations/' + location.slug"
-      class="inline-block py-3 px-2 hover:underline lg:mx-0 xl:px-4"
-      :class="locationClass(location)"
-    >
-      {{ location.title }}
-    </nuxt-link>
-  </nav>
+  <div class="sticky top-0 inset-x-0 px-2 py-3 z-50 bg-cobalt text-white text-base tracking-tighter lg:px-0">
+    <div class="w-full flex justify-between text-[0.625rem] leading-none lg:hidden">
+      <span v-if="prevLocation && locations[0]" class="inline-flex items-center mr-auto">
+        <nuxt-img class="h-4 w-auto mr-1" src="/arrow-left.svg" alt="Left arrow" />
+        Towards {{ locations[0].title }}
+      </span>
+      <span v-if="nextLocation && locations.slice(-1)[0]" class="inline-flex items-center ml-auto">
+        Towards {{ locations.slice(-1)[0].title }}
+        <nuxt-img class="h-4 w-auto ml-1" src="/arrow-right.svg" alt="Right arrow" />
+      </span>
+    </div>
+    <nav class="flex flex-wrap justify-between lg:justify-center xl:text-lg 2xl:text-xl">
+      <nuxt-link
+        v-for="(location, index) in locations"
+        :key="'location_nav_' + index"
+        :to="'/locations/' + location.slug"
+        class="inline-block hover:underline lg:mx-0 lg:px-2 xl:px-4"
+        :class="locationClass(location)"
+      >
+        {{ location.title }}
+      </nuxt-link>
+    </nav>
+  </div>
 </template>
 
 <script>
