@@ -8201,14 +8201,6 @@ ol-mapbox-style@^8.0.5:
     "@mapbox/mapbox-gl-style-spec" "^13.23.1"
     mapbox-to-css-font "^2.4.1"
 
-ol-mapbox-style@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/ol-mapbox-style/-/ol-mapbox-style-9.2.0.tgz#a92944ff53e2743a28dbd5a04367f489245d5c84"
-  integrity sha512-DJPJP+7Kur2JGxoIsOkCLe3S/A6An0v/VSrQTGm6D8jsUh5CIuZrUWwZfGfiC3hHiWLSe+LrTahhVMN2qegNVQ==
-  dependencies:
-    "@mapbox/mapbox-gl-style-spec" "^13.23.1"
-    mapbox-to-css-font "^2.4.1"
-
 ol-rotate-feature@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/ol-rotate-feature/-/ol-rotate-feature-3.0.1.tgz#185c2c9969ab8cd5f79d7ca6da0fb658bf74119e"
@@ -8283,6 +8275,11 @@ opener@1.5.2, opener@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/opener/-/opener-1.5.2.tgz#5d37e1f35077b9dcac4301372271afdeb2a13598"
   integrity sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
+
+openseadragon@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/openseadragon/-/openseadragon-3.1.0.tgz#152b1ed8b6b03296feeed4e0ddf084cea7d0c1f2"
+  integrity sha512-0zCbRIWUbCto7xm1tv2ZLEiSl84cDU659W/sfs2zqqTqVRa4CRHzhy7i9nsv6dHA1DryFR8IzjStjmWOqRs9Rg==
 
 optimize-css-assets-webpack-plugin@^5.0.4:
   version "5.0.8"

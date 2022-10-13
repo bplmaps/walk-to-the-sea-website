@@ -40,7 +40,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/router-callbacks', mode: 'client' },
-    { src: '~/plugins/vuelayers.js', mode: 'client' }
+    { src: '~/plugins/vuelayers.js', mode: 'client' },
+    { src: '~/plugins/openseadragon.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -70,6 +71,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend (config) {
+      config.resolve.alias.vue = 'vue/dist/vue.common'
+    },
     transpile: [
       'decode-named-character-reference',
       'character-entities',

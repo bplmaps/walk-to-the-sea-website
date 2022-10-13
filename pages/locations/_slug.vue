@@ -3,31 +3,21 @@
     <the-header />
     <locations-nav />
     <article class="container mx-auto px-5 py-14 sm:py-28">
-      <header class="mb-14 sm:mb-28 md:w-3/4 lg:w-2/3 xl:w-1/2">
+      <header class="mb-4 md:w-3/4 lg:mb-8 lg:w-2/3 xl:w-1/2">
         <h1 class="font-serif text-4xl leading-condensed text-cobalt mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
           {{ page.title }}
         </h1>
         <p class="text-midnight text-3xl leading-none mb-4 lg:mb-8 xl:text-4xl">
           {{ page.description }}
         </p>
-        <div class="flex flex-wrap space-x-2">
+        <div class="flex flex-wrap gap-2">
           <inline-button text="Read more" href="#main" />
           <inline-button v-if="page.latitude && page.longitude" text="Directions" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" :target-blank="true" />
           <inline-button v-if="page.resources" text="Resources" href="#resources" />
         </div>
       </header>
-      <div
-        v-if="false"
-      >
-        <template
-          v-for="(image, index) in page.images"
-        >
-          <div :key="'location_image_' + index">
-            {{ image.type }}
-          </div>
-        </template>
-      </div>
-      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto 2xl:max-w-[68rem]" :document="page" />
+      <image-gallery :images="page.images" />
+      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto mt-14 sm:mt-28 2xl:max-w-[68rem]" :document="page" />
     </article>
     <div
       v-if="page.resources"
