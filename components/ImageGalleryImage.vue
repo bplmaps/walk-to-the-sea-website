@@ -28,7 +28,7 @@
         role="dialog"
         aria-modal="true"
       >
-        <div class="fixed inset-0 bg-white bg-opacity-75 backdrop-blur-lg transition-opacity" />
+        <div class="fixed inset-0 bg-white bg-opacity-95 transition-opacity" />
 
         <div class="fixed inset-0 z-10">
           <div class="relative transform transition-all w-full h-full">
