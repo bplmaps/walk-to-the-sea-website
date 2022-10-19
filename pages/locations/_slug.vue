@@ -12,7 +12,12 @@
         </p>
         <div class="flex flex-wrap gap-2">
           <inline-button text="Read more" href="#main" />
-          <inline-button v-if="page.latitude && page.longitude" text="Directions" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" :target-blank="true" />
+          <span
+            v-if="page.latitude && page.longitude"
+            @click="lightboxActive = true"
+          >
+            <inline-button text="Directions" :button="true" />
+          </span>
           <inline-button v-if="page.resources" text="Resources" href="#resources" />
         </div>
       </header>
@@ -60,6 +65,51 @@
     </nuxt-link>
 
     <the-footer />
+
+    <client-only>
+      <div
+        class="relative z-50"
+        :class="lightboxActive ? 'block' : 'hidden'"
+        role="dialog"
+        aria-modal="true"
+      >
+        <div class="fixed inset-0 bg-white bg-opacity-75 backdrop-blur-lg transition-opacity" />
+
+        <div class="fixed inset-0 z-10 overflow-y-auto">
+          <div class="flex min-h-full justify-center p-4 text-center items-center sm:p-0">
+            <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all w-full max-w-lg my-8">
+              <button
+                class="group absolute z-10 top-0 right-0 m-1"
+                @click="lightboxActive = false"
+              >
+                <span class="flex justify-center items-center w-8 h-8 rounded-full overflow-hidden bg-cobalt text-4xl text-white font-thin bg-opacity-80 mx-auto mb-4 transition duration-150 group-hover:bg-opacity-100">
+                  &times;
+                </span>
+                <span class="sr-only">
+                  Close
+                </span>
+              </button>
+              <div class="p-4 sm:p-6">
+                <p class="text-midnight font-serif text-2xl mb-4">
+                  Select an option:
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span @click="lightboxActive = false">
+                    <inline-button v-if="page.latitude && page.longitude" text="Google Maps" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" :target-blank="true" />
+                  </span>
+                  <span @click="lightboxActive = false">
+                    <inline-button v-if="page.latitude && page.longitude" text="Apple Maps" :href="'http://maps.apple.com/?dirflg=w&daddr=' + page.latitude + ',' + page.longitude" :target-blank="true" />
+                  </span>
+                  <nuxt-link to="/locations/">
+                    <inline-button v-if="page.latitude && page.longitude" text="Show on WTTS Map" />
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </client-only>
   </div>
 </template>
 
@@ -86,6 +136,11 @@ export default {
     return {
       page,
       resources
+    }
+  },
+  data () {
+    return {
+      lightboxActive: false
     }
   },
   head () {
