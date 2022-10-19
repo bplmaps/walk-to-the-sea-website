@@ -9,7 +9,7 @@
     </div>
     <vl-map
       ref="map"
-      class="absolute inset-0 w-full h-full transition-opacity duration-500 ease-in-out"
+      class="absolute inset-0 w-full h-full transition-opacity duration-500 ease-in-out bg-white"
       :class="!mapLoaded && 'opacity-0'"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
@@ -29,7 +29,7 @@
         </template>
       </vl-geoloc>
 
-      <vl-layer-tile>
+      <vl-layer-tile :opacity="0.1">
         <vl-source-xyz :url="maptilerUrl" />
       </vl-layer-tile>
 
