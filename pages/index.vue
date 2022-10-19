@@ -5,8 +5,9 @@
   >
     <div v-if="page.hero" class="relative">
       <div
-        class="absolute z-50 inset-0 w-full h-full flex justify-center items-center transition-opacity duration-1000 ease-in-out"
+        class="absolute z-50 inset-0 w-full h-full flex justify-center items-center transition-opacity duration-1000 ease-in-out cursor-pointer"
         :class="!showSplash && 'opacity-0 pointer-events-none'"
+        @click="showSplash = false"
       >
         <nuxt-img
           class="block m-auto w-3/4 max-w-3xl h-auto sm:w-1/2"
