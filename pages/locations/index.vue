@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col h-screen items-stretch">
+    <the-header />
     <div class="relative z-10 flex-grow w-full min-h-[400px]">
       <client-only>
         <map-embed />
