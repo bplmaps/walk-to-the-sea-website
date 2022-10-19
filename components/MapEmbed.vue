@@ -69,8 +69,8 @@
             :style="{ width: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem'), height: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem') }"
           />
           <span
-            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full p-1 px-2 backdrop-blur-lg backdrop-grayscale md:-translate-x-1/2 md:-translate-y-1/2"
-            :class="(index % 2 === 0 ? 'md:-mt-12' : 'md:mt-12') + ' ' + (location.slug === lastLocation ? 'bg-cobalt text-white' : 'bg-cornflower text-cobalt bg-opacity-30')"
+            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full bg-cobalt text-white p-1 px-2 md:-translate-x-1/2 md:-translate-y-1/2"
+            :class="(index % 2 === 0 ? 'md:-mt-12' : 'md:mt-12') + ' ' + (location.slug === lastLocation ? 'map-label-pulse' : '')"
           >
             {{ location.title }}
           </span>
@@ -164,14 +164,25 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
+.map-label-pulse::before {
+  @apply absolute block bg-cobalt rounded-full bg-opacity-50;
+
+  content: " ";
+  z-index: -1;
+  width: calc(100% + 0.5rem);
+  height: calc(100% + 0.5rem);
+  left: -0.25rem;
+  top: -0.25rem;
+}
+
 .map-pulse::before {
   @apply relative block bg-cobalt rounded-full;
 
   content: " ";
-  width: 300%;
-  height: 300%;
-  margin-left: -100%;
-  margin-top: -100%;
+  width: 200%;
+  height: 200%;
+  left: -50%;
+  top: -50%;
   animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
 }
 
@@ -185,7 +196,7 @@ export default {
 
 @keyframes pulse-ring {
   0% {
-    transform: scale(0.33);
+    transform: scale(0.5);
   }
 
   80%,
