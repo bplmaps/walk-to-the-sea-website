@@ -1,6 +1,6 @@
 <template>
-  <div class="sticky top-0 inset-x-0 px-2 py-3 z-50 bg-cobalt text-white text-base tracking-tighter lg:px-0">
-    <div class="w-full flex justify-between text-[0.625rem] leading-none lg:hidden">
+  <div class="sticky top-0 inset-x-0 px-2 py-2 z-50 bg-cobalt text-white text-base tracking-tighter lg:px-0">
+    <div class="w-full flex justify-between text-xs leading-none lg:hidden">
       <span v-if="prevLocation && locations[0]" class="inline-flex items-center mr-auto">
         <nuxt-img class="h-4 w-auto mr-1" src="/arrow-left.svg" alt="Left arrow" />
         Towards {{ locations[0].title }}
