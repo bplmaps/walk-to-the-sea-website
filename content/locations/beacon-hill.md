@@ -6,6 +6,17 @@ accessible: false
 order: 0
 latitude: 42.357778
 longitude: -71.063263
+images:
+  - type: iiif
+    src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:6h441131k"
+    caption: |
+      A [watercolor illustration of Beacon Hill](https://www.digitalcommonwealth.org/search/commonwealth:6h4411309) from the early nineteenth century.
+  - type: iiif
+    src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xd690"
+    caption: |
+      This [1828 lithograph](https://www.digitalcommonwealth.org/search/commonwealth:ht24xd68q) shows the State House at the top of the Common, with a few cows still grazing below.
+resources:
+  - african-meeting-house
 ---
 
 Massachusetts Bay to share his peninsula with its excellent springs. By 1634, hundreds of Puritans had usurped most of Blaxton’s land, leaving him with only 50 acres. He sold most of that land to the growing town for Boston's Common. Here, residents pastured their livestock, punished transgressors, and attended public assemblies.

@@ -3,7 +3,7 @@
     <the-header />
     <locations-nav />
     <article class="container mx-auto px-5 py-14 sm:py-28">
-      <header class="mb-4 md:w-3/4 lg:mb-8 lg:w-2/3 xl:w-1/2">
+      <header class="mb-4 md:w-3/4 lg:mb-8 lg:w-2/3">
         <h1 class="font-serif text-4xl leading-condensed text-cobalt mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
           {{ page.title }}
         </h1>
