@@ -11,11 +11,10 @@ hero:
     intro:
         paragraph: "Start your journey by selecting a location below or using the map button:"
         map_link: "Explore Map"
-        first_location_link: "Head to the Water"
-body_paragraph: "The Walk crosses a terain that, centuries before, was not land at
-                 all, but an active port.  The history of Boston is linked to the Sea,
-                 whose smells and sounds once invaded the city.  The walk from the
-                 top to the sea, which stretches for a mile and descends a hundred
+        first_location_link: "Start at Beacon Hill"
+body_paragraph: "The Walk to the Sea crosses a terain that, centuries before, was not land at
+                 all, but an active port.  The history of Boston is linked to the sea,
+                 whose smells and sounds once invaded the city.  The walk from Beacon Hill to Long Wharf, which stretches for a mile and descends a hundred
                  feet, gives life to that story."
 locations:
     img:
@@ -23,6 +22,7 @@ locations:
         alt: "Photo of Customs House Observation Tower"
     heading: "Start your journey by selecting one of the locations:"
 video:
+    src: "https://s3.us-east-2.wasabisys.com/lmec-public-files/wtts-static-assets/intro-video.mp4"
     caption: "Watch Boston's Transformation"
 accessibility:
     img:

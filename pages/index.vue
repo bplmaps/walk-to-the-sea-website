@@ -108,7 +108,9 @@
     </div>
 
     <figure v-if="page.video" class="sm:container sm:mx-auto sm:px-5 sm:py-28 xl:max-w-[68rem]">
-      <video v-if="page.video" class="w-full aspect-video bg-black cursor-pointer" />
+      <video v-if="page.video" controls class="w-full aspect-video bg-black cursor-pointer">
+        <source :src="page.video.src">
+      </video>
       <figcaption v-if="page.video.caption" class="font-sans mt-1 font-medium text-sm px-5 sm:px-0 lg:text-base">
         {{ page.video.caption }}
       </figcaption>
