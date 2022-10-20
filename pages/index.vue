@@ -195,6 +195,26 @@ export default {
           hid: 'description',
           name: 'description',
           content: this.page.metaDescription
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.page.title
+        },
+        {
+          hid: 'og-desc',
+          name: 'og:description',
+          content: this.page.metaDescription
+        },
+        {
+          hid: 'twitter-desc',
+          name: 'twitter:title',
+          content: this.page.title
+        },
+        {
+          hid: 'twitter-desc',
+          name: 'twitter:description',
+          content: this.page.metaDescription
         }
       ]
     }

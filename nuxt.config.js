@@ -11,7 +11,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'og:site_name', content: 'Walk to the Sea' },
+      { name: 'og:type', content: 'website' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@walktotheseabos' }
     ],
     link: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
