@@ -4,7 +4,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { micromark } from 'micromark'
+import { marked } from 'marked'
+
+marked.setOptions({
+  smartypants: true
+})
 
 export default defineComponent({
   name: 'RenderMarkdown',
@@ -16,7 +20,7 @@ export default defineComponent({
   },
   computed: {
     html () {
-      return micromark(this.source || '')
+      return marked.parse(this.source || '')
     }
   }
 })

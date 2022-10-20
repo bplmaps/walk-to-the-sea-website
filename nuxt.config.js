@@ -70,7 +70,9 @@ export default {
   ],
 
   content: {
-    // Options
+    markdown: {
+      remarkPlugins: ['@ngsctt/remark-smartypants']
+    }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -80,8 +82,7 @@ export default {
     },
     transpile: [
       'decode-named-character-reference',
-      'character-entities',
-      'micromark'
+      'character-entities'
     ]
   }
 }

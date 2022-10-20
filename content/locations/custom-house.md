@@ -9,13 +9,16 @@ longitude: -71.0531600
 images:
   - type: static-local
     src: "/hero-index.jpg"
-    caption: "Here is a local [static image](/hero-index.jpg)."
+    caption: |
+      Here is a local [static image](/hero-index.jpg).
   - type: iiif
     src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1257b896v"
-    caption: "This [1897 map](https://collections.leventhalmap.org/search/commonwealth:1257b895k) of the area blah blah"
+    caption: |
+      This [1897 map](https://collections.leventhalmap.org/search/commonwealth:1257b895k) of the area "blah blah".
   - type: static-external
     src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Custom_House_Tower%2C_Boston%2C_Mass_%28NYPL_b12647398-74363%29.tiff/lossy-page1-680px-Custom_House_Tower%2C_Boston%2C_Mass_%28NYPL_b12647398-74363%29.tiff.jpg"
-    caption: "Here is an external [static image](https://commons.wikimedia.org/wiki/File:Custom_House_Tower,_Boston,_Mass_(NYPL_b12647398-74363).tiff)."
+    caption: |
+      Here is an external [static image](https://commons.wikimedia.org/wiki/File:Custom_House_Tower,_Boston,_Mass_(NYPL_b12647398-74363).tiff).
 resources:
   - freedom-trail
   - more-or-less-in-common
