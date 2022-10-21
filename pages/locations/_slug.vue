@@ -7,7 +7,7 @@
         <h1 class="font-serif text-4xl leading-condensed text-cobalt mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
           {{ page.title }}
         </h1>
-        <p class="text-midnight text-3xl leading-none mb-4 lg:mb-8 xl:text-4xl">
+        <p class="font-serif text-midnight text-3xl leading-none mb-4 lg:mb-8 xl:text-4xl">
           {{ page.description }}
         </p>
         <div class="flex flex-wrap gap-2">
@@ -22,7 +22,7 @@
         </div>
       </header>
       <image-gallery :images="page.images" />
-      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto mt-14 sm:mt-28 2xl:max-w-[68rem]" :document="page" />
+      <nuxt-content id="main" class="prose prose-midnight max-w-[52rem] mx-auto mt-14 sm:mt-28 2xl:max-w-[68rem] prose-h1:text-xl prose-h1:xl:text-4xl prose-h2:text-lg prose-h2:xl:text-3xl prose-h3:text-base prose-h3:xl:text-2xl prose-h4:text-base prose-h4:xl:text-2xl prose-h5:text-base prose-h5:xl:text-2xl prose-h6:text-base prose-h6:xl:text-2xl prose-p:xl:text-xl prose-ul:xl:text-xl prose-ol:xl:text-xl" :document="page" />
     </article>
     <div
       v-if="page.resources"
@@ -45,7 +45,7 @@
                 <h2 v-if="resources[resource].title" class="text-lg font-bold tracking-tight max-w-3xl xl:text-3xl">
                   {{ resources[resource].title }}
                 </h2>
-                <p v-if="resources[resource].description" class="text-base xl:text-xl">
+                <p v-if="resources[resource].description" class="text-base leading-[1.75] my-5 xl:text-xl">
                   {{ resources[resource].description }}
                 </p>
                 <inline-button v-if="resources[resource].link" :href="resources[resource].link" :target-blank="true" class="mt-4 lg:mt-6" text="Visit" />
