@@ -48,7 +48,7 @@
         <vl-style>
           <vl-style-circle :radius="10">
             <vl-style-fill
-              :color="location.slug === lastLocation ? '#1f4dfc' : '#345aa7'"
+              color="#1f4dfc"
             />
           </vl-style-circle>
         </vl-style>
@@ -69,8 +69,8 @@
             :style="{ width: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem'), height: ((zoom / (location.slug === lastLocation ? 8 : 5)) + 'rem') }"
           />
           <span
-            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full bg-cobalt text-white p-1 px-2 md:-translate-x-1/2 md:-translate-y-1/2"
-            :class="(index % 2 === 0 ? 'md:-mt-12' : 'md:mt-12') + ' ' + (location.slug === lastLocation ? 'map-label-pulse' : '')"
+            class="absolute inline-block transform translate-x-8 -translate-y-1/2 whitespace-nowrap font-bold leading-none rounded-full border-2 border-cobalt p-1 px-2 md:-translate-x-1/2 md:-translate-y-1/2"
+            :class="(index % 2 === 0 ? 'md:-mt-12' : 'md:mt-12') + ' ' + (location.slug === lastLocation ? 'bg-white text-cobalt' : 'bg-cobalt text-white')"
           >
             {{ location.title }}
           </span>
@@ -163,18 +163,13 @@ export default {
 }
 </script>
 
-<style lang="postcss" scoped>
-.map-label-pulse::before {
-  @apply absolute block bg-cobalt rounded-full bg-opacity-50;
-
-  content: " ";
-  z-index: -1;
-  width: calc(100% + 0.5rem);
-  height: calc(100% + 0.5rem);
-  left: -0.25rem;
-  top: -0.25rem;
+<style>
+.ol-control button {
+  background: #1f4dfc !important;
 }
+</style>
 
+<style lang="postcss" scoped>
 .map-pulse::before {
   @apply relative block bg-cobalt rounded-full;
 
