@@ -1,26 +1,26 @@
 <template>
   <div v-if="image">
-    <img
-      v-if="image.type === 'static-external'"
-      :src="image.src"
-      class="cursor-pointer"
-      :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
+    <div
+      class="relative group cursor-pointer"
       @click="lightboxActive = true"
     >
-    <nuxt-img
-      v-if="image.type === 'static-local'"
-      :src="image.src"
-      class="cursor-pointer"
-      :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
-      @click="lightboxActive = true"
-    />
-    <img
-      v-if="image.type === 'iiif'"
-      :src="image.src + '/full/1920,/0/default.jpg'"
-      class="cursor-pointer"
-      :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
-      @click="lightboxActive = true"
-    >
+      <nuxt-img class="absolute top-0 right-0 h-4 w-auto transition-opacity duration-300 ease-in-out m-2 xl:h-8 xl:m-4 xl:opacity-0 xl:group-hover:opacity-100" src="/icon-magnify.svg" alt="Maginfy icon" />
+      <img
+        v-if="image.type === 'static-external'"
+        :src="image.src"
+        :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
+      >
+      <nuxt-img
+        v-if="image.type === 'static-local'"
+        :src="image.src"
+        :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
+      />
+      <img
+        v-if="image.type === 'iiif'"
+        :src="image.src + '/full/1920,/0/default.jpg'"
+        :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
+      >
+    </div>
     <client-only>
       <div
         class="relative z-50"
