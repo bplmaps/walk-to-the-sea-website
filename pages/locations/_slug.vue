@@ -90,18 +90,18 @@
                 </span>
               </button>
               <div class="p-4 sm:p-6">
-                <p class="text-midnight font-serif text-2xl mb-4">
+                <p class="text-midnight font-serif text-2xl mb-4 xl:text-4xl">
                   Select an option:
                 </p>
-                <div class="flex flex-wrap gap-2">
-                  <span @click="lightboxActive = false">
-                    <inline-button v-if="page.latitude && page.longitude" text="Google Maps" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" :target-blank="true" />
+                <div class="flex flex-col items-stretch flex-wrap gap-2 sm:flex-row sm:items-start">
+                  <span class="w-full sm:w-auto" @click="lightboxActive = false">
+                    <inline-button class-name="w-full sm:w-auto" v-if="page.latitude && page.longitude" text="Google Maps" :href="'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + page.latitude + ',' + page.longitude" :target-blank="true" />
                   </span>
-                  <span @click="lightboxActive = false">
-                    <inline-button v-if="page.latitude && page.longitude" text="Apple Maps" :href="'http://maps.apple.com/?dirflg=w&daddr=' + page.latitude + ',' + page.longitude" :target-blank="true" />
+                  <span class="w-full sm:w-auto sm:hidden" @click="lightboxActive = false">
+                    <inline-button class-name="w-full sm:w-auto" v-if="page.latitude && page.longitude" text="Apple Maps" :href="'http://maps.apple.com/?dirflg=w&daddr=' + page.latitude + ',' + page.longitude" :target-blank="true" />
                   </span>
-                  <nuxt-link to="/locations/">
-                    <inline-button v-if="page.latitude && page.longitude" text="Show on WTTS Map" />
+                  <nuxt-link class="w-full sm:w-auto" to="/locations/">
+                    <inline-button class-name="w-full sm:w-auto" v-if="page.latitude && page.longitude" text="Show on WTTS Map" />
                   </nuxt-link>
                 </div>
               </div>
