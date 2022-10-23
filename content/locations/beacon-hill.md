@@ -9,10 +9,12 @@ longitude: -71.063263
 images:
   - type: iiif
     src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:6h441131k"
+    alt: "Alt tag here"
     caption: |
       A [watercolor illustration of Beacon Hill](https://www.digitalcommonwealth.org/search/commonwealth:6h4411309) from the early nineteenth century.
   - type: iiif
     src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xd690"
+    alt: "Alt tag here"
     caption: |
       This [1828 lithograph](https://www.digitalcommonwealth.org/search/commonwealth:ht24xd68q) shows the State House at the top of the Common, with a few cows still grazing below.
 resources:

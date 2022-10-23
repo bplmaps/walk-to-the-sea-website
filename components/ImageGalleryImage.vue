@@ -8,16 +8,19 @@
       <img
         v-if="image.type === 'static-external'"
         :src="image.src"
+        :alt="image.alt"
         :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
       >
       <nuxt-img
         v-if="image.type === 'static-local'"
         :src="image.src"
+        :alt="image.alt"
         :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
       />
       <img
         v-if="image.type === 'iiif'"
         :src="image.src + '/full/1920,/0/default.jpg'"
+        :alt="image.alt"
         :class="useFull ? 'w-full h-auto' : 'h-24 w-auto sm:h-56'"
       >
     </div>
@@ -50,11 +53,13 @@
                 <img
                   v-if="image.type === 'static-external'"
                   :src="image.src"
+                  :alt="image.alt"
                   class="flex-grow relative w-full max-h-[90vh] object-contain object-center self-center"
                 >
                 <nuxt-img
                   v-if="image.type === 'static-local'"
                   :src="image.src"
+                  :alt="image.alt"
                   class="flex-grow relative w-full max-h-[90vh] object-contain object-center self-center"
                 />
                 <div
