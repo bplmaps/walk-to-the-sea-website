@@ -11,6 +11,8 @@ fields:
 - type: textarea
   name: description
   label: description
+  config:
+    wysiwyg: false
 - type: boolean
   name: accessible
   label: accessible
@@ -27,13 +29,22 @@ fields:
   name: images
   label: images
   fields:
-  - type: text
+  - type: textarea
     name: caption
     label: caption
-  - type: text
+    config:
+      wysiwyg: false
+  - type: select
     name: type
     label: type
-  - type: file
+    config:
+      source:
+        type: custom
+      options:
+          - "static-external"
+          - "static-local"
+          - "iiif"
+  - type: text
     name: src
     label: src
   - type: text
