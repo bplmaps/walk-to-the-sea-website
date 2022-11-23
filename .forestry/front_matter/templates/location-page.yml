@@ -28,6 +28,9 @@ fields:
   label: images
   fields:
   - type: text
+    name: caption
+    label: caption
+  - type: text
     name: type
     label: type
   - type: file
@@ -36,9 +39,8 @@ fields:
   - type: text
     name: alt
     label: alt
-  - type: text
-    name: caption
-    label: caption
 - type: list
   name: resources
   label: resources
+  config:
+    use_select: false
