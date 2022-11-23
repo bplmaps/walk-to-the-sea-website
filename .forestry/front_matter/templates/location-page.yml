@@ -1,0 +1,44 @@
+---
+label: Location Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: metaDescription
+  label: metaDescription
+- type: textarea
+  name: description
+  label: description
+- type: boolean
+  name: accessible
+  label: accessible
+- type: number
+  name: order
+  label: order
+- type: number
+  name: latitude
+  label: latitude
+- type: number
+  name: longitude
+  label: longitude
+- type: field_group_list
+  name: images
+  label: images
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: file
+    name: src
+    label: src
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: caption
+    label: caption
+- type: list
+  name: resources
+  label: resources
