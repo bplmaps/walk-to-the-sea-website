@@ -41,9 +41,9 @@ fields:
       source:
         type: custom
       options:
-          - "static-external"
-          - "static-local"
-          - "iiif"
+      - static-external
+      - static-local
+      - iiif
   - type: text
     name: src
     label: src

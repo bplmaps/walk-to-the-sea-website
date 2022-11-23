@@ -14,6 +14,8 @@ sections:
   label: Locations
   create: documents
   match: "**/*"
+  templates:
+  - location-page
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
