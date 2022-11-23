@@ -1,32 +1,39 @@
 ---
 title: Custom House
-metaDescription: The Custom House was built so close to the water that the bowsprits of arriving ships could touch it, though the shoreline has since moved.
-description: The Custom House was built so close to the water that the bowsprits of arriving ships could touch it, though the shoreline has since moved. Around 1913, the federal government built a 433-foot tower to enlarge the Custom House. For nearly a half century the tower dominated Boston's skyline, while, ironically, waterfront activity and port services declined.
+metaDescription: The Custom House was built so close to the water that the bowsprits
+  of arriving ships could touch it, though the shoreline has since moved.
+description: The Custom House was built so close to the water that the bowsprits of
+  arriving ships could touch it, though the shoreline has since moved. Around 1913,
+  the federal government built a 433-foot tower to enlarge the Custom House. For nearly
+  a half century the tower dominated Boston's skyline, while, ironically, waterfront
+  activity and port services declined.
 accessible: true
 order: 5
 latitude: 42.359325
-longitude: -71.0531600
+longitude: -71.05316
 images:
-  - type: static-local
-    src: "/hero-index.jpg"
-    alt: "Alt tag here"
-    caption: |
-      Here is a local [static image](/hero-index.jpg).
-  - type: iiif
-    src: "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1257b896v"
-    alt: "Alt tag here"
-    caption: |
-      This [1897 map](https://collections.leventhalmap.org/search/commonwealth:1257b895k) of the area "blah blah".
-  - type: static-external
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Custom_House_Tower%2C_Boston%2C_Mass_%28NYPL_b12647398-74363%29.tiff/lossy-page1-680px-Custom_House_Tower%2C_Boston%2C_Mass_%28NYPL_b12647398-74363%29.tiff.jpg"
-    alt: "Alt tag here"
-    caption: |
-      Here is an external [static image](https://commons.wikimedia.org/wiki/File:Custom_House_Tower,_Boston,_Mass_(NYPL_b12647398-74363).tiff).
-resources:
-  - freedom-trail
-  - more-or-less-in-common
----
+- type: static-local
+  src: "/hero-index.jpg"
+  alt: Alt tag here
+  caption: Here is a local <strong>static image.</strong>
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1257b896v
+  alt: Alt tag here
+  caption: 'This [1897 map](https://collections.leventhalmap.org/search/commonwealth:1257b895k)
+    of the area "blah blah".
 
+    '
+- type: static-external
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Custom_House_Tower%2C_Boston%2C_Mass_%28NYPL_b12647398-74363%29.tiff/lossy-page1-680px-Custom_House_Tower%2C_Boston%2C_Mass_%28NYPL_b12647398-74363%29.tiff.jpg
+  alt: Alt tag here
+  caption: 'Here is an external [static image](https://commons.wikimedia.org/wiki/File:Custom_House_Tower,_Boston,_Mass_(NYPL_b12647398-74363).tiff).
+
+    '
+resources:
+- freedom-trail
+- more-or-less-in-common
+
+---
 ## The Waterfront Then and Now
 
 The shipbuilding industry that enlivened Boston's waterfront for two centuries ended with the advent of steamships around the time of the Civil War. Port operations diminished. Boston's maritime infrastructure became obsolete.
