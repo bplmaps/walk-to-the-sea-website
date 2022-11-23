@@ -12,7 +12,7 @@ fields:
   name: description
   label: description
   config:
-    wysiwyg: false
+    wysiwyg: true
 - type: boolean
   name: accessible
   label: accessible
@@ -33,7 +33,7 @@ fields:
     name: caption
     label: caption
     config:
-      wysiwyg: false
+      wysiwyg: true
   - type: select
     name: type
     label: type
