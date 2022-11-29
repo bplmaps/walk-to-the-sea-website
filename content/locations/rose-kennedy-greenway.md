@@ -11,8 +11,8 @@ order: 6
 latitude: 42.35962
 longitude: -71.0516
 images:
-- caption: View of the Central Artery highway in 1972 flocked with cars as people
-    traveled into, out of, and through Boston.
+- caption: View of the Central Artery highway [in 1972](https://www.digitalcommonwealth.org/search/commonwealth:np1939763)
+    flocked with cars as people traveled into, out of, and through Boston.
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8c97mj434
   alt: Black and White aerial photograph of Central Artery highway and with downtown
     Boston in background and Harbor Towers in foreground.
