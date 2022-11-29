@@ -16,8 +16,9 @@ images:
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8c97mj434
   alt: Black and White aerial photograph of Central Artery highway and with downtown
     Boston in background and Harbor Towers in foreground.
-- caption: The construction of the elevated Central Artery cut through Downtown Boston
-    where the Rose Kennedy Greenway now sits.
+- caption: The [construction](https://www.digitalcommonwealth.org/search/commonwealth:8c97mj42v)
+    of the elevated Central Artery cut through Downtown Boston where the Rose Kennedy
+    Greenway now sits.
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8c97mj434
   alt: Black and white photograph of ongoing elevated highway construction in front
