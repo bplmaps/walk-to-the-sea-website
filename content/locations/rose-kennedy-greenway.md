@@ -11,8 +11,7 @@ order: 6
 latitude: 42.35962
 longitude: -71.0516
 images:
-- caption: The construction of the elevated Central Artery cut through Downtown Boston
-    where the Rose Kennedy Greenway now stands
+- caption: 'The construction of the elevated Central Artery cut through Downtown Boston '
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8c97mj434
   alt: Black and white photograph of ongoing elevated highway construction in front
