@@ -1,13 +1,22 @@
 ---
 title: Long Wharf
-metaDescription: The sea is Boston’s front door. From the city’s inception, Bostonians relied on the sea for transportation, trade, defense, and the city’s expansion.
-description: The sea is Boston’s front door. From the city’s inception, Bostonians relied on the sea for transportation, trade, defense, and the city’s expansion. Though these interests still influence the use of Boston Harbor, its public role as a cultural and recreational asset has received greater prominence since the 1970s.
+metaDescription: The sea is Boston’s front door. From the city’s inception, Bostonians
+  relied on the sea for transportation, trade, defense, and the city’s expansion.
+description: The sea is Boston’s front door. From the city’s inception, Bostonians
+  relied on the sea for transportation, trade, defense, and the city’s expansion.
+  Though these interests still influence the use of Boston Harbor, its public role
+  as a cultural and recreational asset has received greater prominence since the 1970s.
 accessible: true
 order: 7
 latitude: 42.360155
 longitude: -71.0484532
----
+images:
+- caption: In 1768, British soldiers arrived, being sent to Boston after the passage
+    of the Townshed Acts in London sparked riots.  Several British warships are shown
+    in the harbor and British soldiers can be seen marching down Long Wharf into the
+    city
 
+---
 Like an arrow pointing back to the Old World, Long Wharf, built in 1711, dominated Boston Harbor. It reached well past approximately 80 other wharves bristling out from the Shawmut Peninsula. About a third of a mile long, it extended the town's main commercial street, King Street (now State Street), far into the harbor.
 
 In addition to its prominent commercial role, Long Wharf witnessed the arrival of royal governors, chained pirates, British troops, and other historic spectacles. In 1774, British General Gage and his troops arrived here to quell Boston's rebellious spirit in a scene captured by Paul Revere’s engraving. Gage and his men fled Boston in 1776 from this same wharf.
