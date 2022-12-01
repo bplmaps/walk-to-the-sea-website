@@ -1,13 +1,25 @@
 ---
 title: King's Chapel
-metaDescription: Around 1750, the present, stone version of King’s Chapel replaced the wooden structure of 1688.
-description: Around 1750, the present, stone version of King’s Chapel replaced the wooden structure of 1688. King James II had ordered the wooden chapel built. It was the first Anglican church in Boston, erected on the old burying ground over strong Puritan objections. Puritan power had weakened, and James had appointed a royal governor to administer the colonies of Massachusetts.
+metaDescription: Around 1750, the present, stone version of King’s Chapel replaced
+  the wooden structure of 1688.
+description: Around 1750, the present, stone version of King’s Chapel replaced the
+  wooden structure of 1688. King James II had ordered the wooden chapel built. It
+  was the first Anglican church in Boston, erected on the old burying ground over
+  strong Puritan objections. Puritan power had weakened, and James had appointed a
+  royal governor to administer the colonies of Massachusetts.
 accessible: false
 order: 1
 latitude: 42.3581704
 longitude: -71.0604897
----
+images:
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f463c51h
+  caption: <a href="https://www.digitalcommonwealth.org/search/commonwealth:3f463c507"
+    title="">King's Chapel Interior in the 1910s</a>
+  alt: 'Inside of Chapel, showing first floor and balcony pews, with pipe organ in
+    the far back. '
 
+---
 ## King's Chapel and Beyond
 
 Around 1750, the present, stone version of King’s Chapel replaced the wooden structure of 1688. King James II had ordered the wooden chapel built. It was the first Anglican church in Boston, erected on the old burying ground over strong Puritan objections. Puritan power had weakened, and James had appointed a royal governor to administer the colonies of Massachusetts.
