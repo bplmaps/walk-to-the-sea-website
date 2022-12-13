@@ -12,6 +12,10 @@ order: 5
 latitude: 42.359325
 longitude: -71.05316
 images:
+- caption: Custom [link] (https://www.digitalcommonwealth.org/search/commonwealth:k930dh94z)
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:k930dh957
+  alt: ''
 - type: static-local
   src: "/hero-index.jpg"
   alt: Alt tag here
