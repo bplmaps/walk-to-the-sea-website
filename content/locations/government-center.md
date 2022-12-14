@@ -19,6 +19,7 @@ images:
     today. '
   type: iiif
   alt: Photo of train platform and tracks of old Scollay Square station.
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:0c4867984
 - caption: This photo, taken in 1947, prominently displays the Scollay Sq. sign over
     the marquee of the Olympia building theater. In this era, Scollay Square was home
     to a number of theaters and entertainment venues, including the Rialto Theatre
