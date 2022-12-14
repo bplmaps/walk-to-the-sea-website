@@ -15,8 +15,7 @@ longitude: -71.059625
 images:
 - caption: 'Interior of Scollay Square station in 1961. The station was renamed to
     Government Station in 1963, coinciding with renovations and changes to the tracks.
-    The station was renovated a second time in 2014 to create the station you see
-    today. '
+    The station was renovated again in 2014 to create the station you see today. '
   type: iiif
   alt: Photo of train platform and tracks of old Scollay Square station.
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:0c4867984
