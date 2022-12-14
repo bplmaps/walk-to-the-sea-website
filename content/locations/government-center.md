@@ -14,8 +14,9 @@ latitude: 42.359288
 longitude: -71.059625
 images:
 - caption: This photo, taken in 1947, prominently displays the Scollay Sq. sign over
-    the marquee of the Olymbia building theater. Scollay Square was home to a number
-    of theaters and entertainment venues.
+    the marquee of the Olympia building theater. In this era, Scollay Square was home
+    to a number of theaters and entertainment venues, including the Rialto Theatre
+    (visible to direct left of Olympia building) and the nearby Casino Theater.
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:qv33ts576
   alt: Black and white photo of Scollay Square buildings taken from opposite side
