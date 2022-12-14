@@ -1,13 +1,27 @@
 ---
 title: Government Center
-metaDescription: Eventually, public opinion censured the lively squalor, and Scollay Square became a candidate for urban renewal.
-description: Eventually, public opinion censured the lively squalor, and Scollay Square became a candidate for urban renewal. Its buildings were razed and replaced by the "superblocks" of Government Center, where, by 1969, a monumental new City Hall anchored a vast 10-acre plaza. Bostonians still debate the consequences of urban renewal, but the bold rebuilding reversed the decline in Boston's fortunes that occurred during the first half of the 20th century.
+metaDescription: Eventually, public opinion censured the lively squalor, and Scollay
+  Square became a candidate for urban renewal.
+description: Eventually, public opinion censured the lively squalor, and Scollay Square
+  became a candidate for urban renewal. Its buildings were razed and replaced by the
+  "superblocks" of Government Center, where, by 1969, a monumental new City Hall anchored
+  a vast 10-acre plaza. Bostonians still debate the consequences of urban renewal,
+  but the bold rebuilding reversed the decline in Boston's fortunes that occurred
+  during the first half of the 20th century.
 accessible: true
 order: 2
 latitude: 42.359288
-longitude: -71.0596250
----
+longitude: -71.059625
+images:
+- caption: This photo, taken in 1947, prominently displays the Scollay Sq. sign over
+    the marquee of the Olymbia building theater. Scollay Square was home to a number
+    of theaters and entertainment venues.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:qv33ts576
+  alt: Black and white photo of Scollay Square buildings taken from opposite side
+    of street.
 
+---
 ## Scollay Square & Government Center
 
 The Scollay Square neighborhood stood here until the 1960s. Its colorful, Victorian buildings, bearing large painted advertisements, originally teemed with shoppers and theatergoers.
