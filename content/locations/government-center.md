@@ -13,6 +13,12 @@ order: 2
 latitude: 42.359288
 longitude: -71.059625
 images:
+- caption: 'Interior of Scollay Square station in 1961. The station was renamed to
+    Government Station in 1963, coinciding with renovations and changes to the tracks.
+    The station was renovated a second time in 2014 to create the station you see
+    today. '
+  type: iiif
+  alt: Photo of train platform and tracks of old Scollay Square station.
 - caption: This photo, taken in 1947, prominently displays the Scollay Sq. sign over
     the marquee of the Olympia building theater. In this era, Scollay Square was home
     to a number of theaters and entertainment venues, including the Rialto Theatre
