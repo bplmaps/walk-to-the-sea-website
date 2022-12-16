@@ -13,6 +13,12 @@ order: 2
 latitude: 42.359288
 longitude: -71.059625
 images:
+- caption: 'The<a href="https://www.digitalcommonwealth.org/search/commonwealth:0k227t87p"
+    title=""> new Boston City Hall</a> in 1968 was built on top of what once was Scollay
+    Square and still serves as the center of the city government. '
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31t1110
+  alt: Photo of Boston City Hall with plaza fountain in front
 - caption: 'Interior of Scollay Square station in 1961. The station was renamed to
     Government Station in 1963, coinciding with renovations and changes to the tracks.
     The station was renovated again in 2014 to create the station you see today. '
