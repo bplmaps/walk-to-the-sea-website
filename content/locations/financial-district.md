@@ -11,13 +11,20 @@ order: 4
 latitude: 42.35899
 longitude: -71.0555232
 images:
-- {}
+- caption: The <a href="https://www.digitalcommonwealth.org/search/commonwealth:k930d674m"
+    title="">Boston Stock Exchange</a> building with it's domed roof was already dwarfed
+    by the modern office buildings around it when this photo was taken sometime between
+    1935 and 1955.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:k930d675w
+  alt: Black and white photo of stone Boston Stock Exchange building with a domed
+    roof
 - caption: 'Taken just before the turn of the century, this photo of the <a href="https://www.digitalcommonwealth.org/search/commonwealth:pn89gz79f"
     title="">Financial District''s night skyline</a> looks somewhat similar to the
     view in the modern day. The Financial District includes some of the tallest buildings
     in Boston. '
   type: iiif
-  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8k71nz82v
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:z890vm110
   alt: 'Evening skyline of the financial district '
 - caption: In 1872, Boston's most destructive fire encroached on the area of today's
     Financial District, destroying 930 business in total and costing millions (billions
