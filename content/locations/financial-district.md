@@ -1,13 +1,27 @@
 ---
 title: Financial District
-metaDescription: Boston’s Financial District took root here along prominent King Street (now State Street) with the rich flow of goods that arrived at Long Wharf.
-description: Boston’s Financial District took root here along prominent King Street (now State Street) with the rich flow of goods that arrived at Long Wharf. Merchants located their offices, stores, and warehouses here, close by the wharves and the merchants' exchange.
+metaDescription: Boston’s Financial District took root here along prominent King Street
+  (now State Street) with the rich flow of goods that arrived at Long Wharf.
+description: Boston’s Financial District took root here along prominent King Street
+  (now State Street) with the rich flow of goods that arrived at Long Wharf. Merchants
+  located their offices, stores, and warehouses here, close by the wharves and the
+  merchants' exchange.
 accessible: false
 order: 4
-latitude: 42.358990
+latitude: 42.35899
 longitude: -71.0555232
----
+images:
+- caption: In 1872, Boston's most destructive fire encroached on the area of today's
+    Financial District, destroying 930 business in total and costing millions (billions
+    in today's dollars). This <a href="https://www.digitalcommonwealth.org/search/commonwealth:x059cb44q"
+    title="">bird's eye view showing the burned district</a> was published in the
+    weeks following the fire.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x059cb450
+  alt: Bird's eye view of Boston with an area south of the Financial District shaded
+    grey to represent the Great Fire's destruction.
 
+---
 ## The Historic Shoreline & The Growing City
 
 When the great Puritan Migration brought thousands to the coast of Massachusetts between 1630 and 1640, the waters of Boston’s Town Cove lapped the shore here. Early buildings, facing the sea, existed on only one side of Merchants Row.
