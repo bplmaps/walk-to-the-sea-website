@@ -16,7 +16,7 @@ images:
 - caption: 'The<a href="https://www.digitalcommonwealth.org/search/commonwealth:0k227t87p"
     title=""> new Boston City Hall</a> in 1968 was built on top of what was once Scollay
     Square and Adams Square. The Brutalist-style building, with its brick and concrete
-    façade still serves as the center of the city government. '
+    façade, still serves as the center of the city government. '
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31t1110
   alt: Photo of Boston City Hall with plaza fountain in front
