@@ -14,7 +14,7 @@ latitude: 42.359288
 longitude: -71.059625
 images:
 - caption: The<a href="https://www.digitalcommonwealth.org/search/commonwealth:0k227t87p"
-    title=""> new Boston City Hall</a> in 1968 was built on top of what once was Scollay
+    title=""> new Boston City Hall</a> in 1968 was built on top of what was once Scollay
     Square and Adams Square and still serves as the center of the city government.
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31t1110
