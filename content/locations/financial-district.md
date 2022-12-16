@@ -11,6 +11,14 @@ order: 4
 latitude: 42.35899
 longitude: -71.0555232
 images:
+- {}
+- caption: 'Taken just before the turn of the century, this photo of the <a href="https://www.digitalcommonwealth.org/search/commonwealth:pn89gz79f"
+    title="">Financial District''s night skyline</a> looks somewhat similar to the
+    view in the modern day. The Financial District includes some of the tallest buildings
+    in Boston. '
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8k71nz82v
+  alt: 'Evening skyline of the financial district '
 - caption: In 1872, Boston's most destructive fire encroached on the area of today's
     Financial District, destroying 930 business in total and costing millions (billions
     in today's dollars). This <a href="https://www.digitalcommonwealth.org/search/commonwealth:x059cb44q"
