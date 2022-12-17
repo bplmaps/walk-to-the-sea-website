@@ -12,6 +12,11 @@ order: 5
 latitude: 42.359325
 longitude: -71.05316
 images:
+- caption: The <a href="https://www.digitalcommonwealth.org/search/commonwealth:rr174n02h"
+    title="">Custom House</a> under construction in 1915.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:wd378k393
+  alt: construction of base of  tower on top of original Customs House
 - caption: Custom [link] (https://www.digitalcommonwealth.org/search/commonwealth:k930dh94z)
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:k930dh957
