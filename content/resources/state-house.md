@@ -1,5 +1,5 @@
 ---
-title: State House 1
+title: 'State House '
 metaDescription: ''
 description: ''
 accessible: false
