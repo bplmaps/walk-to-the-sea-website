@@ -1,13 +1,32 @@
 ---
 title: Old State House
-metaDescription: The Old State House, the oldest public building in Boston, bears on its gables a gilded unicorn and lion.
-description: The Old State House, the oldest public building in Boston, bears on its gables a gilded unicorn and lion. These symbols of English dominion were removed after the Revolution and later replaced by replicas. The building occupied Boston's most prominent intersection. King (now State) Street led from the Old State House to Long Wharf. Washington Street, the only street connecting Boston to the mainland, crossed King Street here.
+metaDescription: The Old State House, the oldest public building in Boston, bears
+  on its gables a gilded unicorn and lion.
+description: The Old State House, the oldest public building in Boston, bears on its
+  gables a gilded unicorn and lion. These symbols of English dominion were removed
+  after the Revolution and later replaced by replicas. The building occupied Boston's
+  most prominent intersection. King (now State) Street led from the Old State House
+  to Long Wharf. Washington Street, the only street connecting Boston to the mainland,
+  crossed King Street here.
 accessible: false
 order: 3
-latitude: 42.3589200
-longitude: -71.0576100
----
+latitude: 42.35892
+longitude: -71.05761
+images:
+- caption: 'This depiction of the Boston Massacre, which took place in front of the
+    State House in 1770, was engraved, printed and sold by Paul Revere. '
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xd65w
+  alt: Colored print of British soldiers firing on crowd with text.
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xd65w
+  alt: A s.w. view of the State House in Boston, drawing of state house and populated
+    streets.
+  caption: The Old State house is now dwarfed by the surrounding buildings, but in
+    1795 when this image was made, it exceeded their heights. From 1713 until 1745,
+    the State House was the tallest building in Boston.
 
+---
 The wooden Town House of 1657 stood here, its ground floor open to merchants, until the Great Fire of 1711. Two years later, the first bricks were laid for new offices for the Massachusetts colonial government.
 
 The Old State House, the oldest public building in Boston, bears on its gables a gilded unicorn and lion. These symbols of English dominion were removed after the Revolution and later replaced by replicas. The building occupied Boston's most prominent intersection. King (now State) Street led from the Old State House to Long Wharf. Washington Street, the only street connecting Boston to the mainland, crossed King Street here.
