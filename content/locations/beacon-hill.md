@@ -13,6 +13,12 @@ order: 0
 latitude: 42.357778
 longitude: -71.063263
 images:
+- caption: From 1848 to 1883, a <a href="https://www.digitalcommonwealth.org/search/commonwealth:ht24xc082"
+    title="">reservoir </a>sat on the top of Beacon Hill, providing people with drinking
+    water. It's location is now covered by an extension of the State House.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xc09b
+  alt: Photo of stone reservoir
 - caption: The <a href="https://www.digitalcommonwealth.org/search/commonwealth:k930d7885"
     title="">neighborhood</a> of Beacon Hill facing the Charles River and Cambridge
     in winter.
