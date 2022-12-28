@@ -11,10 +11,16 @@ order: 7
 latitude: 42.360155
 longitude: -71.0484532
 images:
+- caption: This <a href="https://www.digitalcommonwealth.org/search/commonwealth:2b88sw65v"
+    title="">1973 photograph</a> depicts the restoration of the brick building on
+    Long Wharf.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8049jp47q
+  alt: Photograph of brick building on Long Wharf
 - caption: In 1768, British soldiers arrived, being sent to Boston after the passage
-    of the Townshed Acts in London sparked riots.  Several British warships are shown
-    in the harbor and British soldiers can be seen marching down Long Wharf into the
-    city
+    of the Townshed Acts in London sparked riots. Several British warships are shown
+    in the harbor and British soldiers can be seen <a href="https://www.digitalcommonwealth.org/search/commonwealth:4m90f850d"
+    title="">marching down Long Wharf</a> into the city
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:4m90f851p
   alt: Printed image of ships in Boston Harbor
