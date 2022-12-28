@@ -15,6 +15,9 @@ images:
     of the Townshed Acts in London sparked riots.  Several British warships are shown
     in the harbor and British soldiers can be seen marching down Long Wharf into the
     city
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:4m90f851p
+  alt: Printed image of ships in Boston Harbor
 
 ---
 Like an arrow pointing back to the Old World, Long Wharf, built in 1711, dominated Boston Harbor. It reached well past approximately 80 other wharves bristling out from the Shawmut Peninsula. About a third of a mile long, it extended the town's main commercial street, King Street (now State Street), far into the harbor.
