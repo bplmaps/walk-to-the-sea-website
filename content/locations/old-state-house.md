@@ -13,10 +13,16 @@ order: 3
 latitude: 42.35892
 longitude: -71.05761
 images:
-- caption: 'This depiction of the Boston Massacre, which took place in front of the
-    State House in 1770, was engraved, printed and sold by Paul Revere. '
+- caption: The <a href="https://www.digitalcommonwealth.org/search/commonwealth:cf95jh321"
+    title="">Old State House</a> in 1875, decorated with both  flags and signage.
   type: iiif
-  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xd65w
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:cf95jh339
+  alt: photograph of Old State house
+- caption: This <a href="https://www.digitalcommonwealth.org/search/commonwealth:vh53x3780"
+    title="">depiction</a> of the Boston Massacre, which took place in front of the
+    State House in 1770, was engraved, printed and sold by Paul Revere.
+  type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:vh53x3798
   alt: Colored print of British soldiers firing on crowd with text.
 - type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xd65w
