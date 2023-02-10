@@ -37,9 +37,13 @@ images:
   alt: Alt tag here
   caption: 'This [1828 lithograph](https://www.digitalcommonwealth.org/search/commonwealth:ht24xd68q)
     shows the State House at the top of the Common, with a few cows still grazing
-    below.
-
-    '
+    below.'
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:0g354v62t
+  alt: Lithograph of intact beacon hill
+  caption: >
+   This [lithograph from around 1898](https://www.digitalcommonwealth.org/search/commonwealth:0g354v61j) shows Beacon Hill before it was cut down.
+    
 resources:
 - african-meeting-house
 
