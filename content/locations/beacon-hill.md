@@ -46,7 +46,7 @@ images:
 - type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73rx915
   alt: State house seen from across the Common
-  caption: 'This [photograph (ca. 1917-1934)](https://www.digitalcommonwealth.org/search/commonwealth:5h73rx90w) depicts the State house behind the Common, and a bustling Tremont St.'
+  caption: 'This [photograph (ca. 1917-1934)](https://www.digitalcommonwealth.org/search/commonwealth:5h73rx90w) depicts the State house behind the Common and a bustling Tremont St.'
 - type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73s041j
   alt: Monument to 54th Massachusetts All-black Infantry Regiment from State House Steps
