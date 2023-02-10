@@ -43,6 +43,14 @@ images:
   alt: Lithograph of intact beacon hill
   caption: >
    This [lithograph from around 1898](https://www.digitalcommonwealth.org/search/commonwealth:0g354v61j) shows Beacon Hill before it was cut down.
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73rx915
+  alt: State house seen from across the Common
+  caption: 'This [photograph (ca. 1917-1934)](https://www.digitalcommonwealth.org/search/commonwealth:5h73rx90w) depicts the State house behind the Common, and a bustling Tremont St.'
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73s041j
+  alt: Monument to 54th Massachusetts All-black Infantry Regiment from State House Steps
+  caption: 'This [1931 photograph](https://www.digitalcommonwealth.org/search/commonwealth:5h73s0408) depicts the Monument to the 54th Massachusetts All-Black Infantry Regiment as seen from the steps of the State House'
     
 resources:
 - african-meeting-house
