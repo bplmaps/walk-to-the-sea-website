@@ -45,11 +45,11 @@ images:
 - caption: "This [photo from 1962](https://www.digitalcommonwealth.org/search/commonwealth:3j335r23n) depicts the future site of Boston City Hall, at this point an emptied lot still surrounded by the characteristic theatres of Scollay Square "
   type: iiif
   alt: A vacant lot representing the future site of Boston City Hall around 1962
-  src: https://www.digitalcommonwealth.org/search/commonwealth:3j335r23n
-- caption: "This [aerial photograph](https://www.digitalcommonwealth.org/search/commonwealth:5138km26f) from 1966 depicts City Hall in an advanced stage of construction, with Boston Harbor and the Custom House Tower visible in the background. "
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:r494z7942
+- caption: "This [aerial photograph](https://www.digitalcommonwealth.org/search/commonwealth:5138km26f) from 1966 depicts City Hall in an advanced stage of construction, with Boston Harbor and the Custom House Tower visible in the background "
   type: iiif
   alt: City hall under construction around 1966
-  src: https://www.digitalcommonwealth.org/search/commonwealth:5138km26f
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5138km27q
 
 ---
 ## Scollay Square & Government Center
