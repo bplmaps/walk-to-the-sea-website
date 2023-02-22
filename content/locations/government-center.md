@@ -34,6 +34,22 @@ images:
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:qv33ts576
   alt: Black and white photo of Scollay Square buildings taken from opposite side
     of street.
+- caption: "This [1894 print](https://www.digitalcommonwealth.org/search/commonwealth:66830596q) depicts the bustling intersection of Court and Tremont Streets at the edge of Scollay square."
+  type: iiif
+  alt: 1894 print of Court and Tremont St from Scollay Square
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:668305970
+- caption: "This [photo from around 1942](https://www.digitalcommonwealth.org/search/commonwealth:8c97nd68b) shows a crowded Scollay Square packed with hotels, theatres, and advertisements, with commuters emerging from the Scollay Square subway station "
+  type: iiif
+  alt: A crowded Scollay Square around 1942
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8c97nd69m
+- caption: "This [photo from 1962](https://www.digitalcommonwealth.org/search/commonwealth:3j335r23n) depicts the future site of Boston City Hall, at this point an emptied lot still surrounded by the characteristic theatres of Scollay Square "
+  type: iiif
+  alt: A vacant lot representing the future site of Boston City Hall around 1962
+  src: https://www.digitalcommonwealth.org/search/commonwealth:3j335r23n
+- caption: "This [aerial photograph](https://www.digitalcommonwealth.org/search/commonwealth:5138km26f) from 1966 depicts City Hall in an advanced stage of construction, with Boston Harbor and the Custom House Tower visible in the background. "
+  type: iiif
+  alt: City hall under construction around 1966
+  src: https://www.digitalcommonwealth.org/search/commonwealth:5138km26f
 
 ---
 ## Scollay Square & Government Center
