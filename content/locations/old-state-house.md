@@ -31,6 +31,22 @@ images:
   caption: The Old State house is now dwarfed by the surrounding buildings, but in
     1795 when this image was made, it exceeded their heights. From 1713 until 1745,
     the State House was the tallest building in Boston.
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:wh246s48n
+  alt: A postcard from the mid-1900s depicts the historic reading of the declaration of independence from the old state house on July 18th 1776
+  caption: "This [postcard (ca. 1930-1945)](https://www.digitalcommonwealth.org/search/commonwealth:wh246s47c) depicts the historic reading of the declaration of independence from the Old State House balcony on July 18th 1776."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xf610
+  alt: Old State House as viewed from behind, sometime between 1890 and 1905
+  caption: "This [photograph (ca. 1890-1905)](https://www.digitalcommonwealth.org/search/commonwealth:ht24xf60q) depicts the Old State House from behind, adjacent to Boston's first skyscraper, the Ames Building. "
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:n2970h33b
+  alt: Old state house dwarfed by a skyscraper
+  caption: "This [photograph (ca. 1960-1980)](https://www.digitalcommonwealth.org/search/commonwealth:b5647837c) depicts the Old State House dwarfed by modern skyscrapers."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:9593vb94n
+  alt: East boston tunnel subway station underneath the Old State House
+  caption: "This [photograph from around 1903](https://www.digitalcommonwealth.org/search/commonwealth:9593vb93c) depicts the interior of the East Boston Tunnel subway station, located directly underneath the Old State House."
 
 ---
 The wooden Town House of 1657 stood here, its ground floor open to merchants, until the Great Fire of 1711. Two years later, the first bricks were laid for new offices for the Massachusetts colonial government.
