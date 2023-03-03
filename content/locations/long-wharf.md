@@ -24,6 +24,22 @@ images:
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:4m90f851p
   alt: Printed image of ships in Boston Harbor
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:rj432z170
+  alt: Photo from between 1928 and 1938 showing the Custom House Tower from the end of a busy long wharf
+  caption: "This [photo (ca. 1928-1938)](https://www.digitalcommonwealth.org/search/commonwealth:bc3898249) taken from the end of Long Wharf depicts moored boats and the Custom House Tower in the distance."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8c97nf87r
+  alt: Photo of Long Wharf Salt House originally built in 1720 and rebuilt in 1886
+  caption: "This [photo (ca. 1934-1956)](https://www.digitalcommonwealth.org/search/commonwealth:8c97nf86g) depicts the Old Long Wharf Salt House centrally situated on Long Wharf. Originally built in 1720 the Salt House was rebuilt in 1886, why it needed to be rebuilt remains one of Boston's enduring mysteries."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8049jp47q
+  alt: 1973 photograph of the Long Wharf Chart House in the process of being restored
+  caption: "This [1973 photograph](https://www.digitalcommonwealth.org/search/commonwealth:2b88sw65v) depicts the Long Wharf Chart House, the oldest building remaining on Long Wharf, here seen in the midst of a restoration effort."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5q47v542v
+  alt: 1973 photograph of Long Wharf, with Chart House visible across from the Custom House Tower and the newly built New England Aquarium
+  caption: "This [1973 Photograph](https://www.digitalcommonwealth.org/search/commonwealth:08615548c) depicts the Long Wharf Chart House across from the newly built New England Aquarium, just visible on the left beneath the Custom House Tower."
 
 ---
 Like an arrow pointing back to the Old World, Long Wharf, built in 1711, dominated Boston Harbor. It reached well past approximately 80 other wharves bristling out from the Shawmut Peninsula. About a third of a mile long, it extended the town's main commercial street, King Street (now State Street), far into the harbor.
