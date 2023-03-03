@@ -38,6 +38,19 @@ images:
   caption: 'Here is an external [static image](https://commons.wikimedia.org/wiki/File:Custom_House_Tower,_Boston,_Mass_(NYPL_b12647398-74363).tiff).
 
     '
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:p2677g22j
+  alt: Print from between 1850 and 1855 showing the Boston Custom House in its original construction.
+  caption: "This [print](https://www.digitalcommonwealth.org/search/commonwealth:p2677g218) from sometime between 1850 and 1855, depicts the Boston Custom House shortly after its construction in 1849. A ship is visible in the foreground alongside Long Wharf, showing the Custom House's close proximity to the seafront and to Boston's commercial activity."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73r703d
+  alt: 1928 photograph of Fanueil Hall and Custom House Tower
+  caption: "This [1928 photograph](https://www.digitalcommonwealth.org/search/commonwealth:5h73r7024) depicts the Custom House Tower dominating the skyline behind Fanueil Hall. "
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73r673w
+  alt: Aerial photograph of Boston waterfront and Custom House tower from around 1930
+  caption: "This [aerial photograph](https://www.digitalcommonwealth.org/search/commonwealth:5h73r672m) from around 1930 depicts the waterfront now a fair distance from the Custom House Tower."
+
 resources:
 - freedom-trail
 - more-or-less-in-common
