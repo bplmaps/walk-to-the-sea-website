@@ -35,6 +35,18 @@ images:
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x059cb450
   alt: Bird's eye view of Boston with an area south of the Financial District shaded
     grey to represent the Great Fire's destruction.
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:ht24xz97g
+  alt: Market district on a busy day in 1923
+  caption: "This [1923 photograph](https://www.digitalcommonwealth.org/search/commonwealth:ht24xz966) depicts the bustling enterprise of Boston's Market District on a particularly hectic day."
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:p2677g67w
+  alt: An 1889 photograph of the Boston Merchant's Exchange, the site of the present day Exchange Building
+  caption: "This [1889 photograph](https://www.digitalcommonwealth.org/search/commonwealth:p2677g66m) depicts the Boston Merchant's Exchange one year before its demolition. Built in 1841 and serving as a hub for Boston's commercial activites, the Old Merchant's Exchange was replaced by the much larger Exchange Building in 1891. "
+- type: iiif
+  src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:p2677g65b
+  alt: A photograph of the Boston Exchange building taken sometime between 1891 and 1915
+  caption: "This [photograph (ca. 1891-1915)](https://www.digitalcommonwealth.org/search/commonwealth:p2677g642) depicts the Boston Exchange building at the corner of State and Kilby Street. Built in 1891 to house the Boston Stock Exchange, the Boston Exchange Building is still partially standing, its facade preserved as the entrance to the modern Exchange Place skyscraper complex."
 
 ---
 ## The Historic Shoreline & The Growing City
