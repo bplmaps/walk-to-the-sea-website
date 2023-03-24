@@ -1,5 +1,5 @@
 ---
-title: King's Chapel
+title: King’s Chapel
 metaDescription: Around 1750, the present, stone version of King’s Chapel replaced
   the wooden structure of 1688.
 description: Around 1750, the present, stone version of King’s Chapel replaced the
@@ -34,7 +34,8 @@ images:
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:2801pj54t
   caption: "The old Boston City Hall as seen in a [photograph from 1865](https://www.digitalcommonwealth.org/search/commonwealth:2801pj53j)"
   alt: Old Boston City Hall in 1865
-
+resources:
+- freedom-trail
 ---
 ## King's Chapel and Beyond
 

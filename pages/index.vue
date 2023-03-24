@@ -34,7 +34,7 @@
           >
             <nuxt-img class="h-10 my-5 w-auto xl:h-18 xl:my-12" src="/brand-wordmark.svg" alt="Walk to the Sea wordmark" />
           </nuxt-link>
-          <h1 v-if="page.hero.headline" class="text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
+          <h1 v-if="page.hero.headline" class="text-2xl lg:text-4xl border-b border-pewter pb-8 mb-4 lg:w-2/3 lg:pb-0 lg:mb-0 lg:border-0 lg:pr-14 xl:text-5xl 2xl:pr-28 2xl:text-6xl">
             {{ page.hero.headline }}
           </h1>
           <div v-if="page.hero.intro" class="lg:w-1/3">
@@ -84,7 +84,7 @@
       />
       <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:pr-8 lg:pr-14">
-          <h2 v-if="page.locations.heading" class="text-base leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
+          <h2 v-if="page.locations.heading" class="text-base text-xl leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
             {{ page.locations.heading }}
           </h2>
           <ul
@@ -118,8 +118,8 @@
 
     <div v-if="page.accessibility" class="relative sm:bg-midnight sm:text-white">
       <div class="container mx-auto px-5 py-14 sm:py-28">
-        <div class="md:w-1/2 md:ml-auto md:pl-8 lg:pl-14">
-          <h2 v-if="page.accessibility.heading" class="text-base leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
+        <div class=" md:pl-8 lg:pl-14">
+          <h2 v-if="page.accessibility.heading" class="text-base text-2xl leading-none mb-4 max-w-[10rem] lg:mb-8 xl:text-3xl xl:max-w-[14rem] 2xl:text-4xl 2xl:max-w-xs">
             {{ page.accessibility.heading }}
           </h2>
           <div v-if="page.accessibility.paragraph || page.accessibility.locations_intro" class="font-sans text-base leading-tight max-w-xs md:max-w-sm">
@@ -128,22 +128,6 @@
               {{ page.accessibility.locations_intro }}
             </p>
           </div>
-          <ul
-            v-if="accessibleLocations.length"
-            class="text-lg tracking-tight xl:text-3xl 2xl:text-4xl"
-          >
-            <li
-              v-for="(location, index) in accessibleLocations"
-              :key="'accessible_locations_' + index"
-            >
-              <nuxt-link
-                :to="'/locations/' + location.slug"
-                class="hover:underline"
-              >
-                {{ location.title }}
-              </nuxt-link>
-            </li>
-          </ul>
         </div>
       </div>
       <nuxt-img
@@ -158,7 +142,7 @@
     <div v-if="page.footer_credit" class="bg-periwinkle">
       <div class="container mx-auto px-5 py-14 sm:py-28 xl:max-w-[68rem]">
         <p class="text-base leading-none max-w-[18rem] sm:text-3xl sm:max-w-[34rem] xl:max-w-[52rem] 2xl:text-4xl 2xl:max-w-[60rem]">
-          {{ page.footer_credit }}
+          <render-markdown class="mb-4" :source="page.footer_credit" />
         </p>
       </div>
     </div>

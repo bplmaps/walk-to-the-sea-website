@@ -54,6 +54,7 @@ images:
     
 resources:
 - african-meeting-house
+- black-heritage-trail
 
 ---
 Massachusetts Bay to share his peninsula with its excellent springs. By 1634, hundreds of Puritans had usurped most of Blaxton’s land, leaving him with only 50 acres. He sold most of that land to the growing town for Boston's Common. Here, residents pastured their livestock, punished transgressors, and attended public assemblies.
