@@ -135,18 +135,7 @@ export default {
   computed: {
     ...mapGetters({
       lastLocation: 'locations/getLastLocation'
-    }),
-    lineCoordinates () {
-      const coordinates = []
-
-      this.locations.forEach((location) => {
-        if (location.longitude && location.latitude) {
-          coordinates.push([location.longitude, location.latitude])
-        }
-      })
-
-      return coordinates
-    }
+    })
   },
   methods: {
     mapCreated (vm) {

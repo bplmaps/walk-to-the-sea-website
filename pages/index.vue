@@ -84,7 +84,7 @@
       />
       <div class="container mx-auto px-5 py-14 sm:py-28">
         <div class="md:w-1/2 md:pr-8 lg:pr-14">
-          <h2 v-if="page.locations.heading" class="text-base text-xl leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
+          <h2 v-if="page.locations.heading" class="text-base italic text-xl leading-none mb-4 max-w-[14rem] lg:mb-8 xl:text-3xl xl:max-w-md 2xl:text-4xl 2xl:max-w-lg">
             {{ page.locations.heading }}
           </h2>
           <ul

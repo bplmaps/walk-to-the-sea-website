@@ -71,10 +71,10 @@
                     :options="{
                       tileSources: [image.src],
                       prefixUrl: '/openseadragon/',
-                      preserveViewport: true,
+                      preserveViewport: false,
                       visibilityRatio: 1,
-                      minZoomLevel: 1,
-                      defaultZoomLevel: 1,
+                      // minZoomLevel: 1,
+                      defaultZoomLevel: 0,
                       sequenceMode: true,
                     }"
                   />

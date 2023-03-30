@@ -18,7 +18,7 @@
           >
             <inline-button text="Directions" :button="true" />
           </span>
-          <inline-button v-if="page.resources" text="Resources" href="#resources" />
+          <inline-button v-if="page.resources" text="Other resources" href="#resources" />
         </div>
       </header>
       <image-gallery :images="page.images" />

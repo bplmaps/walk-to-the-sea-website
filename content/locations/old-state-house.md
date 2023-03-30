@@ -1,10 +1,8 @@
 ---
 title: Old State House
-metaDescription: The Old State House, the oldest public building in Boston, bears
-  on its gables a gilded unicorn and lion.
-description: The Old State House, the oldest public building in Boston, bears on its
-  gables a gilded unicorn and lion. These symbols of English dominion were removed
-  after the Revolution and later replaced by replicas. The building occupied Boston's
+metaDescription: The Old State House, the center of public authority in colonial Boston, occupied the city's
+  most prominent intersection.
+description: The Old State House, the center of public authority in colonial Boston, occupied the city's
   most prominent intersection. King (now State) Street led from the Old State House
   to Long Wharf. Washington Street, the only street connecting Boston to the mainland,
   crossed King Street here.
@@ -20,7 +18,7 @@ images:
   alt: photograph of Old State house
 - caption: This <a href="https://www.digitalcommonwealth.org/search/commonwealth:vh53x3780"
     title="">depiction</a> of the Boston Massacre, which took place in front of the
-    State House in 1770, was engraved, printed and sold by Paul Revere.
+    State House in 1770, was engraved, printed, and sold by Paul Revere.
   type: iiif
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:vh53x3798
   alt: Colored print of British soldiers firing on crowd with text.
@@ -47,6 +45,8 @@ images:
   src: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:9593vb94n
   alt: East boston tunnel subway station underneath the Old State House
   caption: "This [photograph from around 1903](https://www.digitalcommonwealth.org/search/commonwealth:9593vb93c) depicts the interior of the East Boston Tunnel subway station, located directly underneath the Old State House."
+resources:
+- revolutionary-spaces
 
 ---
 The wooden Town House of 1657 stood here, its ground floor open to merchants, until the Great Fire of 1711. Two years later, the first bricks were laid for new offices for the Massachusetts colonial government.
@@ -55,9 +55,7 @@ The Old State House, the oldest public building in Boston, bears on its gables a
 
 Settlement and commerce grew around the building. Colonial governors looked down to Long Wharf from the balcony of the State House. Famous scenes of the American Revolution unfolded at its doorstep.
 
-In 1798, Charles Bulfinch’s gold-domed State House opened atop Beacon Hill to begin a proud new era for Boston. The old, colonial State House passed on to other uses and, in 1881, to the protection of The Bostonian Society.
-
-## New Use
+In 1798, Charles Bulfinch’s gold-domed State House opened atop Beacon Hill to begin a proud new era for Boston. The colonial State House passed on to other uses and, in 1881, to the protection of The Bostonian Society.
 
 The Old State House appears as the backdrop in Paul Revere’s engraving of the Boston Massacre. When it was built, the Old State House overlooked bustling wharves. Ships were the source of Boston’s wealth. They also connected Boston politically and commercially to England and other countries and colonies. A different pulse now hums beneath the Old State House. Every day, thousands of commuters emerge from beneath the venerable building, where two of Boston’s busy subway lines intersect in the city's large financial district.
 
