@@ -8,7 +8,7 @@ hero:
     headline: "The Walk to the Sea covers four centuries of Boston history. Follow this free walking tour with markers running through downtown Boston and the accompanying digital resources to learn how Boston’s spaces have changed over time.
            "
     intro:
-        paragraph: "Start your journey opening the map or begin at the first marker on Beacon Hill."
+        paragraph: "Start your journey by opening the map or begin at the first marker on Beacon Hill."
         map_link: "Explore Map"
         first_location_link: "Begin at Beacon Hill"
 body_paragraph: "The Walk to the Sea crosses a terrain that, centuries before, was not land at
