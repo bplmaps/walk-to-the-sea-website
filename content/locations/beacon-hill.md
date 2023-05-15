@@ -2,7 +2,7 @@
 title: Beacon Hill
 metaDescription: After the American Revolution, Beacon Hill became central to Boston’s
   rapid growth.
-description: William Blaxton, the first English settler in Boston, chose the south-facing slope of Beacon Hill as a building location. The Massachusett people already lived here, and the hill was particularly for its freshwater springs.
+description: William Blaxton, the first English settler in Boston, chose the south-facing slope of Beacon Hill as a building location. The Massachusett people already lived here, and the hill was a particularly desirable location due to its freshwater springs.
   After the American Revolution, Beacon Hill became central to Boston’s
   rapid growth.
 order: 0
