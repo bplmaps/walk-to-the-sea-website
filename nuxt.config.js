@@ -52,7 +52,8 @@ export default {
   plugins: [
     { src: '~/plugins/router-callbacks', mode: 'client' },
     { src: '~/plugins/vuelayers.js', mode: 'client' },
-    { src: '~/plugins/openseadragon.js', mode: 'client' }
+    { src: '~/plugins/openseadragon.js', mode: 'client' },
+    {src: '@/plugins/gtag', mode: 'client'},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
