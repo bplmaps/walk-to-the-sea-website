@@ -1,5 +1,7 @@
 ---
-location: beacon-hill
-title: An essay about Beacon Hill
-author: Garrett Dash Nelson
+location: long-wharf
+title: An essay about Long Wharf
+author: Emma Beckman
 ---
+
+Put essay here
