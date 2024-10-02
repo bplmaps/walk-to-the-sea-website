@@ -55,6 +55,22 @@
         </div>
       </div>
     </div>
+    <div v-if="essays.length > 0" >
+    <div class="container mx-auto px-5 py-14 sm:py-28">
+        <div class="max-w-[52rem] mx-auto 2xl:max-w-[68rem]">
+          <h2 class="font-serif text-4xl leading-condensed mb-4 w-48 max-w-full lg:mb-8 xl:text-5xl xl:w-56 2xl:text-6xl 2xl:w-64">
+            Essays
+          </h2>
+          <ul class="flex flex-col items-stretch space-y-8">
+            <template
+              v-for="(essay, index) in page.essays"
+            >
+              
+            </template>
+          </ul>
+        </div>
+      </div>
+    </div>
     <nuxt-link to="/locations/" class="fixed z-40 bottom-0 right-0 group inline-block m-5">
       <span class="flex justify-center items-center w-16 h-16 rounded-full overflow-hidden bg-cobalt bg-opacity-80 mx-auto mb-4 transition duration-150 group-hover:bg-opacity-100 xl:w-20 xl:h-20">
         <nuxt-img class="h-1/2 w-auto" src="/icon-map.svg" alt="Map icon" />
@@ -133,10 +149,22 @@ export default {
       })
     }
 
+    const essays = []
+
+    const queriedEssays = await $content('digital-essays')
+      .where({ location: slug })
+      .fetch()
+    
+    queriedEssays.forEach((essay) => {
+        essays.push(essay)
+      })
+
     return {
       page,
-      resources
+      resources,
+      essays
     }
+
   },
   data () {
     return {
