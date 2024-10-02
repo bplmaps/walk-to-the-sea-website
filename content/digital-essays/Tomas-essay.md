@@ -1,6 +1,6 @@
 ------
-location: beacon-hill
-title: an essay about the BPL
+location: Kings Chapel
+title: an essay about Kings Chapel
 author: Tomas Hinrichs
 ---------
 
