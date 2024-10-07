@@ -1,6 +1,6 @@
 ---
 location: rose-kennedy-greenway
-title: Who Stood Before the Highways
+title: The West End vs The Highway
 author: Scarlett Held
 ---
 ![map of historic west end](https://thewestendmuseum.org/wp-content/uploads/2022/10/the-town-of-boston-in-new-england-a4e74e.jpg)
