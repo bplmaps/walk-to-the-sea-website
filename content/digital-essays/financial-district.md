@@ -6,7 +6,7 @@ author: Grace Rooney
 
 # The Financial District's Rebirth: The Great Fire of 1872 
 
-Boston's Financial District has had to make many transitions as the financial landscape of the United States has changed. Today's Financial District used to be the waterfront, and with good reason. For many years, Boston's business sector was dominated by trade and other businesses that relied on the port. However, as the importance of trade to the Boston economy lessened, businesses like banks and insurance companies began to build skyscrapers and set up shop in the area. As the 1870s began and Boston continued to grow by filling in land, the Financial District faced a crisis. 
+Boston's Financial District has had to make many transitions as the financial landscape of the United States has changed. Today's Financial District used to be the waterfront, and with good reason. For many years, Boston's business sector was dominated by trade and other businesses that relied on the port. However, as the importance of trade to the Boston economy lessened, businesses like banks and insurance companies began to build skyscrapers and set up shop in the area. As the 1870s began and Boston continued to grow by filling in land, the Financial District faced a crisis.
 
 In the late 19th Century, the existing neighborhood and infrastructure changed forever, when it was essentially destroyed in a devastating fire. While the fire had a relatively low human cost, the neighborhood had to be reimagined to not only be more resistant to fire, but also to revitalize the businesses that called it home. 
 
