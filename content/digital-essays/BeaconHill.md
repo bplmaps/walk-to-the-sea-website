@@ -1,11 +1,9 @@
 
 
 ---
-
 location: beacon-hill
 title: The Common Before Boston
 author: Tamara Uhaze
-
 ---
 
 # The Common Before Boston
