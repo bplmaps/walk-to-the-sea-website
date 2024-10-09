@@ -3,7 +3,7 @@
 ---
 
 location: beacon-hill
-title: Boston Common Below the Surface
+title: The Common Before Boston
 author: Tamara Uhaze
 
 ---
