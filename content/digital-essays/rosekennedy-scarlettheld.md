@@ -35,7 +35,7 @@ Fred Salvucci’s grandmother lost her home when they built the Mass Pike, his b
 
 ### The Greenway and Today 
 With the highway now underground, what used to be the elevated highway is now a park. The city is now reconnected to the North End and its own waterfront. The 17 acre and 1.5 mile long park stretches between those lost neighborhoods. It can never replace the communities displaced in the 50s but it is a lot better than a highway. The Rose Kennedy Greenway is home to community events nearly every night of the week. From beer gardens, artisan markets, food festivals, and exercise classes the park is once again a place for people to come together. 
-The West End is now home to TD Garden and Mass General Hospital. It is no longer rows of brick houses but instead high rise buildings, most of which are nonresidential. North Station, the hub of transportation in the city, is only a ten minute walk away from the Greenway. The West End Museum and the Last Tenement, another ten minute walk, is open to ensure the long history of the neighborhood is remembered. 
+The West End is now home to TD Garden and Mass General Hospital. It is no longer rows of brick houses but instead high rise buildings, most of which are nonresidential. North Station, the hub of transportation in the city, is only a ten minute walk away from the Greenway. The West End Museum and the Last Tenement, another ten minute walk, are open to ensure the long history of the neighborhood is remembered. 
 
 Sources Used
 https://www.segregationbydesign.com/boston/the-central-artery
