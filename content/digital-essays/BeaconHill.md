@@ -1,5 +1,3 @@
-
-
 ---
 location: beacon-hill
 title: The Common Before Boston
