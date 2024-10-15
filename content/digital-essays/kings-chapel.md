@@ -20,7 +20,7 @@ During the American Revolution, many of its loyalist members fled to Canada, pro
 
 The history of King’s Chapel is also intertwined with the legacy of slavery. At least 32% of the funding for its construction came from known enslavers, and at least 68% of the money raised in 1747 was sourced from enslavers and individuals connected to trades linked to slave labor. At least 219 enslaved men, women, and children were directly connected to the chapel or enslaved by its members, though the true number is likely much higher. This complex history highlights the chapel's dual role as both a place of worship and a site deeply connected to the issues of its time, prompting ongoing reflection on its legacy within the community. 
 
-!()[https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:37720m85m/image_access_800.jpg]
+![](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:37720m85m/image_access_800.jpg)
 
 Source used: https://www.thefreedomtrail.org/trail-sites/kings-chapel-kings-chapel-burying-ground 
 Source on slavery: https://www.kings-chapel.org/uploads/1/2/3/9/12399624/kings_chapel_slavery_report.pdf 
