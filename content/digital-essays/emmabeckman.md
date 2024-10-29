@@ -4,31 +4,33 @@ title: Long Wharf & Immigration
 author: Emma Beckman
 ---
 
-# Long Wharf & Immigration
-
-For centuries, Long Wharf has been a symbol of the flow movement in the city of Boston, from colonial-era British troops landing and leaving to its modern function as a ferry hub. But Long Wharf was also a stagnant location for those sent to the Immigration Station and Detention Center until 1920.
+For centuries, Long Wharf has been a symbol of the flow of movement in the city of Boston, from colonial-era British troops landing and leaving to its modern function as a ferry hub. But Long Wharf was also a stagnant location for those sent to the Immigration Station and Detention Center until 1920.
 
 ## Immigration Process
 
 ![Immigrants in Boston Harbor](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:q524n568s/image_access_800.jpg)
-Immigrants on a ship in Boston Harbor, ca. 1895.
 
-Boston did not have a single hub like Ellis Island in New York or Angel Island in San Francisco in the early twentieth century. [Instead](https://www.cbp.gov/about/history/did-you-know/anna-tillinghast), passengers disembarking from transatlantic voyages would have their documentation processed at small immigration checkpoints at the docks of each ocean liner company, primarily in Charlestown and East Boston. If there was trouble at these stations, a Board of Special Inquiry would be immediately convened to process special cases. If a person was still determined to be inadmissible, they would be sent to the Immigration Station and Detention Center at the end of Long Wharf.
+_Immigrants on a ship in Boston Harbor, ca. 1895._
+
+Boston did not have a single hub for processing immigrants like Ellis Island in New York or Angel Island in San Francisco in the early twentieth century. [Instead](https://www.cbp.gov/about/history/did-you-know/anna-tillinghast), passengers disembarking from transatlantic voyages would have their documentation processed at small immigration checkpoints at the docks of each ocean liner company, primarily in Charlestown and East Boston. If there was trouble at these stations, a Board of Special Inquiry would be immediately convened to process special cases. If a person was still determined to be inadmissible, they would be sent to the Immigration Station and Detention Center at the end of Long Wharf.
 
 ## Custom House Block
 ![Custom House Block building](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:gh93pj66q/image_access_800.jpg)
-Custom House Block building, photographed in 1975.
+
+_Custom House Block building, photographed in 1975._
 
 The Immigration Station and Detention Center on Long Wharf was adjacent to the Custom House Block building, one of the iconic historic buildings that still stands there. [Custom House Block](https://archive.org/details/bostoniansociety09bost/page/n189/mode/2up) was built by 1849, and rented to the government to serve as Appraisers Stores shortly after. Appraisers stores were spaces the government would use to hold merchandise for inspection before it was sent onward. The building originally had space for 14 stores, but within a few years, the five on the eastern end were demolished and replaced with freight sheds. It was the second floor of this end of the building that served as the Immigration Station and Detention Center in Boston until 1920.
 
 ## Detention on Long Wharf
 ![Emigration Office sign](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:kw52mx07s/image_access_800.jpg)
-The "Emigration Office" sign, photographed in 1975.
+
+_The "Emigration Office" sign, photographed in 1975._
 
 By the twentieth century, the Immigration Station and Detention Center on Long Wharf was widely considered unsafe. Its building, along with the other facilities on Long Wharf, was at constant risk of fire. Many folks were also detained because they had contagious illnesses and could not be let into American society—as determined by immigration officers. Historian [Kelly Kilcrease](https://www.arcadiapublishing.com/products/9781467144735?srsltid=AfmBOooTat8wOSH9oDlBwjsOdaWwb07fLSJl78uHODahcfQPrmbzLDGn) says the station was likely too small for its purpose from the outset, and the next purpose-built immigration station was designed to hold over 500 people. In 1907, Congress designated $250,000 for a new fireproof facility to be built on new land. Local authorities rejected Castle Island and Governors Island as new locations, and in 1911, a site in East Boston was chosen. This site at the end of Long Wharf was closed when the new location opened in 1920.
 
 ![Custom House Block east end 1903](https://images.historicnewengland.org/rs/89300/scr/default.jpg)
-The easterly end of Custom House Block in 1903.
+
+_The easterly end of Custom House Block in 1903._
 
 ## Stories from the Boston Daily Globe
 
