@@ -16,7 +16,7 @@ The fire began on November 9, in the basement of a warehouse on Summer Street. I
 
 ![A map of Boston, with area damaged by the fire in black.](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:x059cb450/image_access_800.jpg)
 
-The fire set records for the amount of monetary damages it caused, but for a fire this large and hot, relatively few lives were lost, compared to a year earlier in Chicago, when a fire caused over 300 deaths. Counts differ on how many died in the fire, but estimates are from [11-30, with about a quarter being firefighters](https://www.boston.gov/news/notes-archives-great-fire-1872).
+The fire set records for the amount of monetary damages it caused, but for a fire this large and hot, relatively few lives were lost, compared to a year earlier in Chicago, when a fire caused over 300 deaths. Counts differ on how many died in the fire, but estimates are from [11 to 300, with about a quarter being firefighters](https://www.boston.gov/news/notes-archives-great-fire-1872).
 
 ![A leveled Financial District in the wake of the fire.](https://www.boston.com/wp-content/uploads/2017/11/1872-fire-1.jpg?width=900)
 
@@ -32,7 +32,7 @@ While the Old South Meeting House was saved, other historical landmarks were los
 
 ![Trinity Church in the wake of the fire.](https://lostnewengland.com/wp-content/uploads/2014/09/295_1872-2Bbpl.jpg)
 
-_Trinity Church after the fire. _
+_Trinity Church after the fire._
 
 ## Rebuilding and Effects 
 
@@ -40,6 +40,6 @@ An important reason why the fire was not as deadly as other large fires in urban
 
 ![Burnt District rebuild map.](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:js956k298/image_access_800.jpg)
 
-While the fire had wiped out the neighborhood and caused millions in damage, the quick action of citizens to rebuild showed the motivation to get the financial center of the city up and running. The rebuilding efforts are illustrative of Boston's resilience, especially within the business and economic center.  The scale of damage allowed for an overhaul of the neighborhood. A committee of Bostonians formed to urge the city to make changes that would make streets wider and straighter, and therefore make the streets safer and fire harder to spread among buildings. The resulting changes were significant: [seventeen streets were widened and four were extended.](https://collections.leventhalmap.org/search/commonwealth:js956k280) The city also implemented significant upgrades to its firefighting abilities, hoping to curb another fire. 
+While the fire had wiped out the neighborhood and caused millions in damage, the quick action of citizens to rebuild showed the motivation to get the financial center of the city up and running. The rebuilding efforts are illustrative of Boston's resilience, especially within the business and economic center. The scale of damage allowed for an overhaul of the neighborhood. A committee of Bostonians formed to urge the city to make changes that would make streets wider and straighter, and therefore make the streets safer and fire harder to spread among buildings. The resulting changes were significant: [seventeen streets were widened and four were extended.](https://collections.leventhalmap.org/search/commonwealth:js956k280) The city also implemented significant upgrades to its firefighting abilities, hoping to curb another fire. 
 
-The pace of these changes was remarkable. The current District is the result of a resilient city, that would not accept longterm wide spread damage, or a repeat of the devastating fire. The importance of the district as a financial center, not a residential one, made it a unique place, did the intermingling of historic monuments. This colossal event was essential to the making of Boston's Financial District, and exemplify the city's innovation and resilience. 
+The pace of these changes was remarkable. The current District is the result of a resilient city, that would not accept long term, widespread damage, or a repeat of the devastating fire. The importance of the district as a financial center, not a residential one, made it a unique place, did the intermingling of historic monuments. This colossal event was essential to the making of Boston's Financial District, and exemplify the city's innovation and resilience. 
