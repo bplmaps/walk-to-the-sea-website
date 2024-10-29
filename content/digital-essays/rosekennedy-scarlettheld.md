@@ -25,6 +25,7 @@ The highway did not only destroy neighborhoods, it cut off the North End, an Ita
 ![Making room for the road](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:8c97mg679/image_access_800.jpg)
 
 > Destruction to make way for the highway
+
 ### The Big Dig 
 Fred Salvucci’s grandmother lost her home when they built the Mass Pike, his brother in law was evicted from his home in the West End to make room for the central artery. When Salvucci grew up he would mastermind the burial of the elevated highway that later became known as the Big Dig. His goal going into urban planning was to build roads and tunnels that did not hurt people or destroy communities. The Big Dig changed a lot for the city of Boston, allowing the North End to rejoin the rest of the city and getting rid of a traffic-filled polluter, but it could not undo the damage previously done. Ian Cross interviewed Chinatown native Randy Tow about the rebuilding of previously destroyed neighborhoods, for his “The Big Dig” podcast with GBH News, [“It was a good gesture. It was something better than not having anything you can never really replace a neighborhood. Nor is anybody asking you to do it. It's impossible.”](https://www.wgbh.org/podcasts/the-big-dig/part-9-hearts-and-minds) The 1950s were an extremely damaging time, a legacy Boston will be faced with forever. The Boston Redevelopment Authority apologized in 2015 for razing the West End. The city has tried to make amends for its actions, but some things are not so easily fixed. 
 
@@ -37,11 +38,12 @@ Fred Salvucci’s grandmother lost her home when they built the Mass Pike, his b
 With the highway now underground, what used to be the elevated highway is now a park. The city is now reconnected to the North End and its own waterfront. The 17 acre and 1.5 mile long park stretches between those lost neighborhoods. It can never replace the communities displaced in the 50s but it is a lot better than a highway. The Rose Kennedy Greenway is home to community events nearly every night of the week. From beer gardens, artisan markets, food festivals, and exercise classes the park is once again a place for people to come together. 
 The West End is now home to TD Garden and Mass General Hospital. It is no longer rows of brick houses but instead high rise buildings, most of which are nonresidential. North Station, the hub of transportation in the city, is only a ten minute walk away from the Greenway. The West End Museum and the Last Tenement, another ten minute walk, are open to ensure the long history of the neighborhood is remembered. 
 
-Sources Used
-https://www.segregationbydesign.com/boston/the-central-artery
-https://www-tc.pbs.org/greatprojects/interviews/salvucci.pdf
-https://thewestendmuseum.org/history/#1666726975955-917b2fd4-0c93
-https://www.boston.gov/news/remembering-west-end-introduction-boston-city-archives-blog-series
-https://www.wgbh.org/podcasts/the-big-dig/part-9-hearts-and-minds
-https://www.rosekennedygreenway.org/history/
-https://globalboston.bc.edu/index.php/the-west-end/ 
+### Sources
+
+- https://www.segregationbydesign.com/boston/the-central-artery
+- https://www-tc.pbs.org/greatprojects/interviews/salvucci.pdf
+- https://thewestendmuseum.org/history/#1666726975955-917b2fd4-0c93
+- https://www.boston.gov/news/remembering-west-end-introduction-boston-city-archives-blog-series
+- https://www.wgbh.org/podcasts/the-big-dig/part-9-hearts-and-minds
+- https://www.rosekennedygreenway.org/history/
+- https://globalboston.bc.edu/index.php/the-west-end/ 
