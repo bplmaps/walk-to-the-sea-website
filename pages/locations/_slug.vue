@@ -59,6 +59,7 @@
             <template v-for="(essay, index) in essays">
               <h2 class="font-serif text-3xl">{{ essay.title }}</h2>
               <div class="font-sans text-xl">by {{ essay.author }}</div>
+              <div class="font-sans text-md bg-gray-50 italic p-4">This essay was written as a student project for HIST 7250: Practicum on the Place-Based Museum at Northeastern University in Fall 2024.</div>
               <nuxt-content
                 class="prose prose-midnight px-8 sm:px-2 max-w-[52rem] mx-auto mt-2 2xl:max-w-[68rem] prose-h1:text-xl prose-h1:xl:text-4xl prose-h2:text-lg prose-h2:xl:text-3xl prose-h3:text-base prose-h3:xl:text-2xl prose-h4:text-base prose-h4:xl:text-2xl prose-h5:text-base prose-h5:xl:text-2xl prose-h6:text-base prose-h6:xl:text-2xl prose-p:xl:text-xl prose-ul:xl:text-xl prose-ol:xl:text-xl"
                 :document="essay" />
