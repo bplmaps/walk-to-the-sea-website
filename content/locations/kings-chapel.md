@@ -36,6 +36,7 @@ images:
   alt: Old Boston City Hall in 1865
 resources:
 - freedom-trail
+- kings-chapel-bpl
 ---
 
 Behind the wooden chapel was the Boston Latin School. The Boston Latin School is the oldest American public school still operating, though it is now located in the Longwood neighborhood. The school trained many of America’s founders, including Benjamin Franklin, Samuel Adams, and John Hancock.
