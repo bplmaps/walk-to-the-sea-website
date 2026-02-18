@@ -23,7 +23,7 @@ reliance on maritime trade.
 
 In the mid-1800s, as part of a larger fill project across the city, Long Wharf was shortened as Boston’s shoreline was expanded. 
 
-![Boston Over Time : filling in the land 1630 - present, Norman B. Leventhal Map & Education Center Collection](https://collections.leventhalmap.org/search/commonwealth:q524n559t)
+![Boston Over Time : filling in the land 1630 - present, Norman B. Leventhal Map & Education Center Collection](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:q524n560k/image_access_800.jpg)
 
 The above image shows the section of Long Wharf now covered by fill (land highlighted in yellow and blue). This construction represents a shift away 
 from maritime economy to other kinds of commerce and transportation. In the mid-18th century, trade declined in Boston and Long Wharf became less 
