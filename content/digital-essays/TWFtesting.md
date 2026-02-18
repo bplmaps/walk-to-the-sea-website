@@ -23,7 +23,7 @@ Chinese immgration to the Boston area began to surge in the second half of the 1
  <img width="1202" height="582" alt="image" src="https://github.com/user-attachments/assets/9094279c-424a-460e-aec5-10c98fc648ce" />
  _Late 19th c. Postcard of Harrison Ave in Boston's Chinatown_
 
-It was not until 1943 that the Chinese Exclusion Act was repealed, largely with the goal of strengthening ties with the Chinese government. Chinese immigration was still heavily restricted, allowing for around only 105 immigrants per year, many of whom included Chinese 'war brides' who had married American soldiers. Despite the restrictive laws and race-baced social exclusion Chinese immigrants and been perpetually facing, there was ample evidence of strong, unified community building. Laundries were the primary occupation for Chinese immigrants living in Boston dating back to the intial wave of immigration, and by 1900, nearly 90 percent of the Chinese in Massachusetts were laundry workers, often working out of one- or two-man operations. As more famlies began to inhabit Chinatown instead of solely 'male bachelors', these laundry businesses became family affairs, further contributing to the growing sense of commmunity. Chinese grocery stores, schools, restaurants, and communal areas began appearing with growing frequency, and despite outside perspectives riddled with anti-Chinese sentimets, the unified identiy of Boston's Chinatown grew stronger. 
+It was not until 1943 that the Chinese Exclusion Act was repealed, largely with the goal of strengthening ties with the Chinese government. Chinese immigration was still heavily restricted, allowing for 105 immigrants per year, some of whom included Chinese 'war brides' who had married American soldiers. Despite the restrictive laws and race-baced social exclusion Chinese immigrants had been perpetually facing, there was ample evidence of strong, unified community building. Laundries were the primary occupation for Chinese immigrants living in Boston dating back to the intial wave of immigration, and by 1900, nearly 90 percent of the Chinese inhabitants in Massachusetts were laundry workers, often working out of one- or two-man operations. As more famlies began to inhabit Chinatown instead of solely 'male bachelors', these laundry businesses became family affairs, further contributing to the growing sense of commmunity. Chinese grocery stores, schools, restaurants, and communal areas began appearing with growing frequency, and despite outside perspectives riddled with anti-Chinese sentimets, the unified identiy of Boston's Chinatown grew stronger. 
 
 ## Deja Vu, from the El to the Central Artery 
 Half a century before the Central Artery cut through Boston's Chinatown, the Washington Street Elevated railway was constructed, running directly through the heart of the neighborhood. The anti-Chinese sentiments which hung over the city like a sprawling cloud was used as justification for the placement of the railway, and the physical disruption it caused was expected to push the Chinese immigrants out of the city. While the project did bring squalid living conditions and dramitically decreased value for property owners, those who left the area were not Chinese immigrants who had begun to build a community. In fact, they were the only ones to stay, due in large part to the city's exclusionary policies which would make finding a new home, a new job, and a new community nearly impossible. This resulted in a futher increase in the growing sense of community which shaped the neighborhood, even as the city they called home tried to push them out. Today, if a Bostonian was asked about the El, they would likely describe the luxury condos which were recently built in Boston's South End, unaware of the past exclusionary associations with these two simple letters. 
@@ -37,6 +37,22 @@ _1993 Protest against the plans for the the Parcel C parking garage in Chinatown
 
 ## And the Greenway?
 While the Rose Kennedy Greenway has barely been discussed througout this essay, the essence of what it symbolizes should now be clear. Urban projects have consquences, and it is crucial to recognize that these consquences are not faced equally by all. The decision to construct the Greenway as a part of the Big Dig project was not an isolated decision made by urban planners, but the result of a century of resistance against destruction, resistance which is evident through the continued existence of Chinatown.
+
+### Sources 
+
+https://thewestendmuseum.org/history/era/immigrant-neighborhood/destruction-and-disappointment-the-legacy-of-bostons-central-artery/
+
+https://graphics.boston.com/beyond_bigdig/news/artery_122902.htm
+
+https://bostonglobe.newspapers.com/image/433522866/?match=1&terms=Central%20Artery%20Boston
+
+https://ur.bc.edu/system/files/2025-04/bc-ir9100034.pdf
+
+https://thewestendmuseum.org/history/era/immigrant-neighborhood/destruction-and-disappointment-the-legacy-of-bostons-central-artery/
+
+https://bostonresearchcenter.org/digitizing-bostons-powerful-chinatown-neighborhood-history/
+
+https://www.chinatownatlas.org/era/wwii-1970s/
 
 
 
