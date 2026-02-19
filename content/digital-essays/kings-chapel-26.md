@@ -14,7 +14,7 @@ When the Massachusetts Bay Colony was founded in 1630, the colony’s government
 
 *Map of the Dominion of New England as of 1688 (attribution: Tpwissaa, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia)*
 
-King James mandated the introduction of the Church of England into Massachusetts against the wishes of many of the colonists, but there were enough Anglicans in Boston to establish a small congregation. As a result, King’s Chapel was first organized in 1686 with Rev. Robert Ratcliffe as its rector. The new Although the Dominion of New England only lasted three years, this time period enabled Anglicanism to establish a foothold in New England. [King’s Chapel’s congregation grew fairly quickly](https://www.kings-chapel.org/briefhistorykc.html), so by the mid-1700s, daughter churches could be established, including Old North Church and Trinity Church.
+King James mandated the introduction of the Church of England into Massachusetts against the wishes of many of the colonists, but there were enough Anglicans in Boston to establish a small congregation. As a result, King’s Chapel was first organized in 1686 with Rev. Robert Ratcliffe as its rector. Although the Dominion of New England only lasted three years, this time period enabled Anglicanism to establish a foothold in New England. [King’s Chapel’s congregation grew fairly quickly](https://www.kings-chapel.org/briefhistorykc.html), so by the mid-1700s, daughter churches could be established, including Old North Church and Trinity Church.
 
 ### The Building of King’s Chapel
 
@@ -28,7 +28,7 @@ The building called King’s Chapel was originally constructed in 1688 out of wo
 
 *Drawing of the original wooden chapel*
 
-The congregation had expanded enough to require a larger space by 1749, so it was decided that a stone building should replace the original wooden structure, and construction on the new building began around the old one. When the stone church was completed in 1754, the wooden structure inside was disassembled and the wood was shipped to Lunenburg, Nova Scotia where it was incorporated into St. John’s Anglican Church, the second Church of England church in Nova Scotia. Unfortunately, St. John’s was badly damaged in a fire in 2001, so it is unclear how much of the original wood from King’s Chapel remains. Both church buildings are still in use with active congregations, the stone in Boston and the wooden in Lunenburg, but only St. John’s remains Anglican today.
+The congregation had expanded enough to require a larger space by 1749, so it was decided that a stone building should replace the original wooden structure. Construction on the new building began literally around the old one. When the stone church was completed in 1754, the wooden structure inside was disassembled and the wood was shipped to Lunenburg, Nova Scotia. There it was incorporated into St. John’s Anglican Church, the second Church of England church in Nova Scotia. Unfortunately, St. John’s was badly damaged in a fire in 2001, so it is unclear how much of the original wood from King’s Chapel remains. Both church buildings are still in use with active congregations, the stone in Boston and the wooden in Lunenburg. Only St. John’s remains Anglican today.
 
 ![Photograph of St. John’s Anglican Church, a white clapboard building with a stained glass window and ornate spires on the roof](https://upload.wikimedia.org/wikipedia/commons/b/b7/St._John%27s_Anglican_Church%2C_Lunenburg.jpg)
 
