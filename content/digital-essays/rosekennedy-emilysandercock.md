@@ -1,0 +1,36 @@
+---
+location: rose-kennedy-greenway
+title: Frostival and International Christmas Markets
+author: Emily Sandercock
+---
+### Today
+
+Winter of 2025-26 saw the inaugural [Frostival](https://www.meetboston.com/explore/seasons/winter/frostival/) in Boston, with a temporary, cozy lodge in Copley Square and Ferris Wheel on the Rose Kennedy Greenway. This was the first Frostival in Boston, but winter markets like this have exploded in popularity around the globe in the 21st century. These markets celebrate an imagined past, incorporating elements of Victorian-era Christmas department stores, which themselves attempted to re-create idealized, medieval Christmas markets, while remaining firmly rooted in a globalized, 21st century world.
+
+### Medieval Markets
+
+Various European cities, particularly in Germany and Austria, claim Christmas market traditions stretching back hundreds of years. The [Nuremberg Christmas market](https://www.christkindlesmarkt.de/en/christmas-market/history-of-the-market) claims an origin in 1530 (with the first written mention in 1678), while the [Dresden market](https://striezelmarkt.dresden.de/en/) supposedly began in 1434, and the [Vienna market](https://www.austria.info/en-us/highlights/christmas-markets-in-vienna/) marks 1296 as its beginning. Little is known, however, about the Christmas markets of the medieval era. They appear briefly in historical records. The Vienna market, for instance, was authorized by Albrecht I in 1296 as a _*Krippenmarkt*_, or December market. But little is known for certain about what day-to-day experiences of the markets would have entailed.
+
+![Albrecht I](https://www.habsburger.net/files/styles/large/public/originale/gg_4529_1_ret.jpg?itok=TWuvuKF4)
+
+### Riotous Christmas
+
+More is known about Christmas festivities of the (relatively) recent past. During the 1600s and 1700s Christmas in what would become the United States of America was a communal holiday. It took place over several days, consisting of revelry, music, and dancing, which some of the more pious denounced. In 1659, for example, the [Massachusetts General Court](https://www.colonialwilliamsburg.org/discover/moments-in-history/colonial-controversies/the-twelve-myths-of-christmas-in-early-america/) made it a criminal offense to celebrate Christmas, though of course the prohibition did not last, and by the 1700s Christmas celebrations were common in New England.
+
+While gift giving was not as prevalent as it is today, gifts of cash from employers to employees and from enslavers to the enslaved were customary and expected. This expectation manifested in the mummer tradition, which involved crowds of merrymakers visiting the doorsteps of wealthy homes (or even invading them uninvited) to perform short, comic plays in exchange for tips. Today, the mummer tradition continues in Philadelphia with an annual New Year’s Day parade, but it also existed in Boston in the 1700s, where the performers were known as the [Boston Anticks](https://newenglandhistoricalsociety.com/the-senseless-christmas-ribaldry-of-the-boston-anticks-not-to-be-confused-with-antiques/).
+
+The mummers’ and Anticks’ plays drew from English pantomime tropes, which themselves descended from the Italian [commedia dell’arte](https://www.york.ac.uk/news-and-events/features/pantomime/) genre (which developed in the 1500s), featuring characters like the old men (*vecchi*), young lovers (*inamorti*), and servants (*zanni*). In England, the clown was added to the mix, with Joseph Grimaldi pioneering the pratfall in his act. Long before the 21st century Christmas traditions crossed borders, shifting and changing depending on their new cultural contexts.
+
+![Pantomime characters](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1z9tmjVrP9He3mBrzr4Au3PzOgGrfAsvmjw&s)
+
+### The Victorian Era and the 1800s
+
+Much of today’s Christmas developed during the Victorian Era (about 1837-1901), as industrialization and consumerism drove each other forward. This was when the [first Christmas card](https://www.jstor.org/content/oa_chapter_edited/j.ctvhrd0t9.12?searchText=Christmas+Market+History&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3DChristmas%2BMarket%2BHistory%26so%3Drel&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&refreqid=fastly-default%3A8299d2796aa7537efd718e67c59496b5&seq=5) was designed and sold, and when the jolly image of Santa Claus we know best today was created. [Charles Dickens](https://www.britishlibrary.cn/en/articles/charles-dickens-and-the-victorian-christmas-feast/), in _*A Christmas Carol*,_ solidified Christmas as a day for families to gather for a feast, in contrast to the communal partying that had characterized the holiday a century or two earlier. At the same time authors such as Walter Scott, wrote [wistfully](https://www.scottishpoetrylibrary.org.uk/poem/old-christmastide/) of the Christmases of days gone by. Scholar David Parker notes repetitions of the word ‘still’ in Victorian Christmas literature and sees in this an emphasis on keeping hold of the spirit of Chistmases past. Christmas celebrations, in this literature, are as much an ode to the past as they are a religious holiday or a reason for purchasing consumer goods.
+
+Department stores, while selling consumer goods, tried to align themselves with visions of historical Christmases. The Wanamaker Building in Philadelphia was transformed, during the mid-1800s, into a [“pseudomediveal wonderland”](https://www.openbookpublishers.com/books/10.11647/obp.0132 ) each Christmas season. Jan Ziolkowski argues that John Wanamaker’s version of Christmas was meant to evoke a particularly German, medieval Christmas tradition, to appeal to the many German immigrants then living in Philadelphia. The new Christmas cards were written in text reminiscent of a medieval tome, the first letter of each large and detailed. The Christmas markets we see today are a result of these long years of imitations and transformations, with contemporary European Christmas markets (which spearheaded the modern trend) shaped by US holiday consumer culture, itself influenced by 19th century ideas about the European medieval ages.
+
+![Victorian Christmas card](https://assets.americanliterature.com/al/images/christmas-card/kate-greenaway-maiden.jpg)
+
+### Today, Again
+
+Modern winters (and, in the case of the southern hemisphere, summers) see hundreds of Christmas markets around the globe. They are separated by thousands of miles but often share common features. Stalls with wooden, triangular roofs and mulled wine. Hot chocolate and small trinkets. Boston is not the only city to have a market with a Ferris wheel. [Warsaw](https://www.jarmark.waw.pl/home-eng/) have them as well. The Christmas market in [Shanghai](https://www.smartshanghai.com/event/christkindlmarkt-on-the-bund-2025) has bumper cars and artificial snow. There is Pokémon themed Christmas village in [Yokohama](https://en.japantravel.com/kanagawa/pok%C3%A9mon-happy-holidays/72098). Like the pantomimes of the 1600 and 1700s, these markets cross borders and blend cultures. Like the department stores of the 1800s, they reach back to an imagined past. The winter Ferris wheel on the Rose Kennedy Greenway contains many strands of history that may not be evident at first glance.
