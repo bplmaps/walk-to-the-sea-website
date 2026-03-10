@@ -60,7 +60,7 @@ Current placement of the Golden Tea Kettle above a Starbucks which closed in [20
 
 ![19th century view of Scollay Square](https://bpldcassets.blob.core.windows.net/derivatives/metadata/commonwealth-oai:vq280m388/image_thumbnail_300.jpg)
 
-John Winthrop Statue at the Court St. and Tremont St. intersection. [Image courtesy of Historic New England.](https://www.digitalcommonwealth.org/search/commonwealth-oai:d504rx01z)
+John Winthrop Statue at the Court St. and Tremont St. intersection. [Image courtesy of Digital Commonwealth.](https://www.digitalcommonwealth.org/search/commonwealth-oai:d504rx01z)
 
 While little remains of Scollay Square, remembering the past helps us understand the present and appreciate the past. The story of Government Center would be incomplete without recognizing what stood before and how it eventually led to what exists today.
 
