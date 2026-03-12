@@ -24,3 +24,12 @@ North America legalized slavery, and the institution continued to exist in the c
   
 ## Trade, Labor, and the Atlantic Economy
 Boston's connection to slavery was deeply rooted in the broader Atlantic trading system that shaped the city's early economy. Between 1525 and 1866, about 12.5 million Africans were forcibly transported across the Atlantic. Through the triangular trade, European goods were exchanged in West Africa for enslaved people, who were then sent to plantations in the Americas to produce export commodities.  
+
+As a small part of this vast system, Boston became deeply connected to the plantation economies of the Caribbean. In fact, sugar colonies like Barbados focused almost entirely on exporting plantation crops, with little land devoted to food cultivation. Consequently, they relied heavily on external suppliers for food, building materials, livestock, and other necessities. Merchants, fishermen, and farmers in New England quickly recognized this demand, and Boston developed into a major port in the trade with the Caribbean islands.  
+  
+Within the commodities, one of the most important exports was salted cod. This kind of salted fish was often rejected in local and European markets but widely used to feed enslaved plantation laborers in the West Indies. In return, ships arriving in Boston brought valuable commodities such as sugar and molasses. These imports were then distilled into rum in Boston’s distilleries, creating one of New England’s most profitable industries. Over time, this trade formed a cycle that directly linked Boston to the transatlantic slave trade system. Ships departing from Boston Harbor carried rum and other goods to the African coast, where they were exchanged for enslaved Africans. These slaves were transported to plantations in the Caribbean, where they were exchanged for sugar and molasses. Ultimately, the sugar and molasses were then shipped back to New England, where it was distilled into more rum. 
+
+  ![A south-east view of the City of Boston in North America](https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:cn69ms73x/image_access_800.jpg)
+
+*Figure 2. A south-east view of the City of Boston in North America, Boston Public Library Digital Collections.*
+  
