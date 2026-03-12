@@ -19,3 +19,6 @@ Within just three years, Massachusetts legalized the enslavement of Africans, Na
 > “There shall never be any bond slavery, villinage or captivity amongst us unless it be lawful Captives taken in just wars, and such strangers as willingly sell themselves or are sold to us. And these shall have all the liberties and Christian usages which the law of God established in Israel concerning such persons does morally require. This exempts none from servitude who shall be judged thereto by Authority.”
 >
 > — *Massachusetts Body of Liberties*, 1641, Article 91
+
+North America legalized slavery, and the institution continued to exist in the colony for roughly 150 years before it was eventually abolished in the late eighteenth century.  
+  
