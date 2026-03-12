@@ -1,1 +1,3 @@
 # Long Wharf and Slavery in Massachusetts
+Long Wharf is one of the most fascinating spots on Boston’s waterfront. Stand at the edge, you’ll feel the breeze off the harbor and see ferries heading toward the Boston Harbor Islands. Behind you, a cluster of glass and brick structures reveals the city's intertwined heritage of history and modernity. In the midst of this tranquil and beautiful scenery, it is often difficult to associate it with a solemn chapter of history that happened on this piece of land. In fact, the location and function of Long Wharf have long tied Boston to the Atlantic world, including the violence of slavery.  
+
