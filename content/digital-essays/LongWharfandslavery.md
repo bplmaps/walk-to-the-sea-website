@@ -33,3 +33,13 @@ Within the commodities, one of the most important exports was salted cod. This k
 
 *Figure 2. A south-east view of the City of Boston in North America, Boston Public Library Digital Collections.*
   
+## From Slave Economy to Abolition
+By the eve of the American Revolutionary War,  criticism of slavery was growing within Massachusetts. Some white New Englanders began questioning the moral contradiction between the language of liberty and the continued acceptance of slavery. More importantly, both free and enslaved Black Bostonians actively challenged the institution of slavery itself through protests and petitions to both the colonial government and the revolutionary government in pursuit of freedom. Between 1773 and 1777, Boston's Black residents submitted seven petitions demanding that the principles of liberty proclaimed during the Revolution be extended to them as well.  
+
+Slavery did not vanish overnight but was gradually dismantled through a series of legal challenges. In 1783, the Massachusetts Supreme Court ruled in Commonwealth v. Jennison that slavery was inconsistent with the state constitution adopted in 1780, thereby ending legal slavery in the state.  
+
+![Drawing of Long Wharf](https://aknextphase.com/wp-content/uploads/2024/09/Long-Wharf-Drawing.jpg)
+
+*Figure 3. Historical drawing of Long Wharf, Boston Harbor.*
+
+Today, visitors stand on Long Wharf enjoying the vibrant harbor and city skyline. Yet, Long Wharf is more than just a feature of Boston’s urban landscape. It served as a physical gateway connecting the city to the wider Atlantic world, and standing here today reminds us of that piece of complex history beneath Boston’s economic prosperity and its discourse of liberty.  
