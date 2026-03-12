@@ -22,3 +22,5 @@ Within just three years, Massachusetts legalized the enslavement of Africans, Na
 
 North America legalized slavery, and the institution continued to exist in the colony for roughly 150 years before it was eventually abolished in the late eighteenth century.  
   
+## Trade, Labor, and the Atlantic Economy
+Boston's connection to slavery was deeply rooted in the broader Atlantic trading system that shaped the city's early economy. Between 1525 and 1866, about 12.5 million Africans were forcibly transported across the Atlantic. Through the triangular trade, European goods were exchanged in West Africa for enslaved people, who were then sent to plantations in the Americas to produce export commodities.  
