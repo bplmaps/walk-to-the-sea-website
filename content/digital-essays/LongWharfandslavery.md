@@ -13,3 +13,9 @@ Enslavement in Massachusetts began shortly after the [Pequot War](https://www.br
 ![Map of the Middle Passage](https://www.nps.gov/articles/images/Middle-Passage-Map-Final-reduced-size.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp)
 
 *Figure 1. Map of the Middle Passage. Source: National Park Service.*
+  
+Within just three years, Massachusetts legalized the enslavement of Africans, Native Americans, and mixed-race people in its 1641 Body of Liberties.  
+
+> “There shall never be any bond slavery, villinage or captivity amongst us unless it be lawful Captives taken in just wars, and such strangers as willingly sell themselves or are sold to us. And these shall have all the liberties and Christian usages which the law of God established in Israel concerning such persons does morally require. This exempts none from servitude who shall be judged thereto by Authority.”
+>
+> — *Massachusetts Body of Liberties*, 1641, Article 91
