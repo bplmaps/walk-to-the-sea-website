@@ -43,7 +43,7 @@ Back Bay neighborhood.
 
 The fill of Back Bay offered the Boston Associates a protected enclave of space, distinct from the commercial areas of the city. The development of 
 the Back Bay neighborhood clearly links Boston's urban landscape to a social structure which highlights the priorities of the elite. As part of the 
-fill project, Boston’s shoreline expanded eastward and shortened Long Wharf to about [0.1 of a mile]([https://www.nps.gov/places/long-wharf-north.htm](https://www.nps.gov/places/long-wharf-north.htm). Just as Long Wharf’s physical structure had symbolized the importance of maritime trade in the 
+fill project, Boston’s shoreline expanded eastward and shortened Long Wharf to about [0.1 of a mile](https://www.nps.gov/places/long-wharf-north.htm). Just as Long Wharf’s physical structure had symbolized the importance of maritime trade in the 
 1700s, the current landscape of the area emphasizes shifting priorities among the Boston elite. 
 
 As Boston’s Long Wharf was shortened in the century between 1880 and 1980, the urban landscape mimicked the diminishing importance of maritime trade
